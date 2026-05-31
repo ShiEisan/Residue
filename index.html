@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Residue Studio | Digital Brand Kit</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap"
+        rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
@@ -46,7 +49,10 @@
 
         .grain {
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             pointer-events: none;
             z-index: 50;
             opacity: 0.05;
@@ -67,8 +73,11 @@
 
         .vignette {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.8) 100%);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, transparent 40%, rgba(0, 0, 0, 0.8) 100%);
             pointer-events: none;
         }
 
@@ -91,9 +100,11 @@
         ::-webkit-scrollbar {
             width: 6px;
         }
+
         ::-webkit-scrollbar-track {
             background: #050505;
         }
+
         ::-webkit-scrollbar-thumb {
             background: #8b0000;
         }
@@ -102,6 +113,7 @@
             scrollbar-width: none;
             -ms-overflow-style: none;
         }
+
         .horizontal-scroll::-webkit-scrollbar {
             display: none;
         }
@@ -111,24 +123,29 @@
         }
     </style>
 </head>
+
 <body class="font-sans">
     <div class="grain"></div>
 
     <!-- Hero Section -->
     <section class="relative h-screen flex flex-col items-center justify-center text-center overflow-hidden">
         <div class="absolute inset-0 z-0 scale-105 animate-pulse-slow">
-            <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-40 grayscale"></div>
+            <div
+                class="w-full h-full bg-[url('https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-40 grayscale">
+            </div>
             <div class="vignette"></div>
         </div>
-        
+
         <div class="relative z-10 px-6">
-            <p class="font-display tracking-[0.4em] text-crimson text-sm md:text-lg mb-4 animate-float">RESIDUE STUDIO PRESENTS</p>
+            <p class="font-display tracking-[0.4em] text-crimson text-sm md:text-lg mb-4 animate-float">RESIDUE STUDIO
+                PRESENTS</p>
             <h1 class="font-serif text-6xl md:text-9xl italic font-black text-white mb-2 drop-shadow-2xl">殘執</h1>
             <p class="font-display text-2xl md:text-4xl uppercase tracking-widest text-white/80 opacity-90">Residue</p>
             <div class="mt-12 h-16 w-px bg-gradient-to-b from-crimson to-transparent mx-auto"></div>
         </div>
 
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/40 text-xs tracking-[0.2em] uppercase font-display">
+        <div
+            class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/40 text-xs tracking-[0.2em] uppercase font-display">
             Scroll to reveal the truth
         </div>
     </section>
@@ -140,13 +157,19 @@
                 <h2 class="font-display text-3xl text-crimson mb-8 uppercase tracking-tighter">I. Series Concept</h2>
                 <div class="space-y-6 text-lg leading-relaxed text-white/80">
                     <p class="font-serif text-2xl text-white italic border-l-4 border-crimson pl-6 py-2">
-                        "In the heart of Taipei’s neon-lit consumerist mecca, the things we discard don’t just disappear; they grow teeth."
+                        "In the heart of Taipei’s neon-lit consumerist mecca, the things we discard don’t just
+                        disappear; they grow teeth."
                     </p>
                     <p>
-                        <strong>殘執 (Residue)</strong> is a psychological thriller set against the backdrop of a distorted, modern Taipei. The story explores the concept of "Residual Attachments"—monsters formed from the collective negative energy of urban life: consumerist greed, social media envy, and the existential dread of the working class.
+                        <strong>殘執 (Residue)</strong> is a psychological thriller set against the backdrop of a
+                        distorted, modern Taipei. The story explores the concept of "Residual Attachments"—monsters
+                        formed from the collective negative energy of urban life: consumerist greed, social media envy,
+                        and the existential dread of the working class.
                     </p>
                     <p>
-                        Follow <strong>Lin Mo (林默)</strong>, a man physically and spiritually bound by the "Chains of Judgment." Every judgment he passes adds weight to his own chains, forcing him to confront the thin line between the monsters he hunts and the man he is becoming.
+                        Follow <strong>Lin Mo (林默)</strong>, a man physically and spiritually bound by the "Chains of
+                        Judgment." Every judgment he passes adds weight to his own chains, forcing him to confront the
+                        thin line between the monsters he hunts and the man he is becoming.
                     </p>
                 </div>
 
@@ -163,22 +186,32 @@
             </div>
 
             <div class="lg:col-span-5">
-                <h2 class="font-display text-3xl text-crimson mb-8 uppercase tracking-tighter text-right">II. Strategic Pillars</h2>
+                <h2 class="font-display text-3xl text-crimson mb-8 uppercase tracking-tighter text-right">II. Strategic
+                    Pillars</h2>
                 <div class="space-y-4">
                     <div class="group p-6 glass-card relative overflow-hidden">
-                        <div class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors">01</div>
+                        <div
+                            class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors">
+                            01</div>
                         <h3 class="font-display text-xl text-white mb-2 uppercase italic">The Price of Desire</h3>
-                        <p class="text-sm text-white/60">Your consumption is consuming you. Luxury items transforming into grotesque symbols of anxiety.</p>
+                        <p class="text-sm text-white/60">Your consumption is consuming you. Luxury items transforming
+                            into grotesque symbols of anxiety.</p>
                     </div>
                     <div class="group p-6 glass-card relative overflow-hidden">
-                        <div class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors">02</div>
+                        <div
+                            class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors">
+                            02</div>
                         <h3 class="font-display text-xl text-white mb-2 uppercase italic">Living Archive</h3>
-                        <p class="text-sm text-white/60">The city remembers. Iconic Taipei locations depicted in their "dark twin" Gothic versions.</p>
+                        <p class="text-sm text-white/60">The city remembers. Iconic Taipei locations depicted in their
+                            "dark twin" Gothic versions.</p>
                     </div>
                     <div class="group p-6 glass-card relative overflow-hidden">
-                        <div class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors">03</div>
+                        <div
+                            class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors">
+                            03</div>
                         <h3 class="font-display text-xl text-white mb-2 uppercase italic">Weight of Judgment</h3>
-                        <p class="text-sm text-white/60">Truth is a heavy chain. The internal battle of an investigator anchored by the city's sins.</p>
+                        <p class="text-sm text-white/60">Truth is a heavy chain. The internal battle of an investigator
+                            anchored by the city's sins.</p>
                     </div>
                 </div>
             </div>
@@ -188,13 +221,18 @@
     <!-- Aesthetic Guide Section -->
     <section class="py-24 bg-charcoal/50 reveal">
         <div class="max-w-[1400px] mx-auto px-6">
-            <h2 class="font-display text-center text-4xl mb-12 tracking-widest text-white/20 uppercase">Visual Aesthetic Guide</h2>
+            <h2 class="font-display text-center text-4xl mb-12 tracking-widest text-white/20 uppercase">Visual Aesthetic
+                Guide</h2>
             <div class="relative group overflow-hidden border border-white/10 p-2">
-                <div class="absolute inset-0 bg-crimson/10 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none"></div>
-                <div class="aspect-video w-full overflow-hidden grayscale contrast-125">
-                    <img src='https://opal.google/board/blobs/6133a6d0-0fc4-4468-ad2e-5792a69f7022' alt='media_1' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+                <div
+                    class="absolute inset-0 bg-crimson/10 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none">
                 </div>
-                <div class="p-4 flex justify-between items-center text-[10px] uppercase tracking-[0.3em] text-white/40 font-display">
+                <div class="aspect-video w-full overflow-hidden grayscale contrast-125">
+                    <img src='https://opal.google/board/blobs/6133a6d0-0fc4-4468-ad2e-5792a69f7022' alt='media_1'
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
+                </div>
+                <div
+                    class="p-4 flex justify-between items-center text-[10px] uppercase tracking-[0.3em] text-white/40 font-display">
                     <span>Mood Board: Urban Decay / Neon Gothic</span>
                     <span>Classified: Residue Project Phase I</span>
                 </div>
@@ -205,221 +243,517 @@
     <!-- Instagram Content Hub -->
     <section class="py-24 px-6 md:px-20 max-w-7xl mx-auto">
         <div class="flex flex-col items-center mb-16">
-            <h2 class="font-display text-4xl text-white mb-8 tracking-widest uppercase italic">Instagram Hub</h2>
+            <h2 class="font-display text-4xl text-white mb-2 tracking-widest uppercase italic">Instagram Hub</h2>
+            <a href="./instagram.html" target="_blank"
+                class="mb-8 px-4 py-1.5 bg-crimson/10 border border-crimson/30 hover:border-crimson hover:bg-crimson/20 transition-all text-[10px] tracking-widest uppercase font-display flex items-center gap-2 rounded text-white/80 hover:text-white">
+                Visit @residue
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+            </a>
             <div class="flex space-x-8 border-b border-white/10 w-full justify-center">
-                <button onclick="switchTab('feed')" id="tab-feed" class="tab-btn active font-display text-xs tracking-widest uppercase py-4">Feed Posts</button>
-                <button onclick="switchTab('stories')" id="tab-stories" class="tab-btn font-display text-xs tracking-widest uppercase py-4">Stories</button>
-                <button onclick="switchTab('reels')" id="tab-reels" class="tab-btn font-display text-xs tracking-widest uppercase py-4">Reels</button>
+                <button onclick="switchTab('feed')" id="tab-feed"
+                    class="tab-btn active font-display text-xs tracking-widest uppercase py-4">Feed Posts</button>
+                <button onclick="switchTab('stories')" id="tab-stories"
+                    class="tab-btn font-display text-xs tracking-widest uppercase py-4">Stories</button>
+                <button onclick="switchTab('reels')" id="tab-reels"
+                    class="tab-btn font-display text-xs tracking-widest uppercase py-4">Reels</button>
+                <button onclick="switchTab('tagged')" id="tab-tagged"
+                    class="tab-btn font-display text-xs tracking-widest uppercase py-4">Tagged</button>
             </div>
-        </div>
 
-        <!-- Feed Section -->
-        <div id="content-feed" class="tab-content grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Post 1 -->
-            <div class="glass-card overflow-hidden group">
-                <div class="aspect-square bg-black relative">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
-                    <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1542461979-62f72c4239c9?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center grayscale contrast-125"></div>
-                    <div class="absolute top-4 right-4 z-20 text-crimson opacity-0 group-hover:opacity-100 transition-opacity">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <!-- Feed Section -->
+            <div id="content-feed" class="tab-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Post 4 (Newest - Placeholder) -->
+                <a href="./instagram.html?tab=posts&post=0" target="_blank"
+                    class="glass-card overflow-hidden group block cursor-pointer transition-all hover:scale-[1.01] hover:border-crimson/80">
+                    <div class="aspect-square bg-black relative">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10">
+                        </div>
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-charcoal to-neutral-950">
+                            <div
+                                class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/40 mb-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                    <circle cx="12" cy="13" r="3" />
+                                </svg>
+                            </div>
+                            <span class="text-[9px] font-mono tracking-wider text-white/30 uppercase">IMAGE_04.JPG
+                                (Placeholder)</span>
+                        </div>
+                        <div
+                            class="absolute top-4 right-4 z-20 text-crimson opacity-0 group-hover:opacity-100 transition-opacity">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </div>
                     </div>
-                </div>
-                <div class="p-6">
-                    <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Pillar 1: The Price of Desire</p>
-                    <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
-                        That rush of dopamine lasted exactly three seconds. Now, the void you tried to fill is leaking into your living room. Every "must-have" comes with a ghost attached.
-                    </p>
-                    <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
-                        <span class="text-[10px] text-white/40">#殘執 #TaipeiNoir</span>
-                        <button class="text-white hover:text-crimson transition-colors text-xs uppercase tracking-tighter">View Full Caption</button>
+                    <div class="p-6">
+                        <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Post 4: Image
+                            Concept</p>
+                        <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
+                            Please insert caption here. This is a placeholder for the 4th post image. 📸 #殘執
+                            #Placeholder #Taipei
+                        </p>
+                        <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
+                            <span class="text-[10px] text-white/40">#殘執 #Placeholder</span>
+                            <span
+                                class="text-white/60 group-hover:text-crimson transition-colors text-xs uppercase tracking-tighter flex items-center gap-1">
+                                View on IG
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
+                <!-- Post 3 -->
+                <a href="./instagram.html?tab=posts&post=1" target="_blank"
+                    class="glass-card overflow-hidden group block cursor-pointer transition-all hover:scale-[1.01] hover:border-crimson/80">
+                    <div class="aspect-square bg-black relative">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10">
+                        </div>
+                        <div
+                            class="w-full h-full bg-[url('https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center contrast-150 grayscale">
+                        </div>
+                        <div
+                            class="absolute top-4 right-4 z-20 text-crimson opacity-0 group-hover:opacity-100 transition-opacity">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Pillar 3: The
+                            Anchor</p>
+                        <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
+                            Truth is not a gift; it is a sentence. For every monster Lin Mo drags back into the shadows,
+                            the chains grow heavier. How long can you carry the weight?
+                        </p>
+                        <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
+                            <span class="text-[10px] text-white/40">#UrbanDread #LinMo</span>
+                            <span
+                                class="text-white/60 group-hover:text-crimson transition-colors text-xs uppercase tracking-tighter flex items-center gap-1">
+                                View on IG
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Post 2 -->
+                <a href="./instagram.html?tab=posts&post=2" target="_blank"
+                    class="glass-card overflow-hidden group block cursor-pointer transition-all hover:scale-[1.01] hover:border-crimson/80">
+                    <div class="aspect-square bg-black relative">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10">
+                        </div>
+                        <div
+                            class="w-full h-full bg-[url('https://images.unsplash.com/photo-1578330132822-019688b15e4a?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center grayscale-0">
+                            <div class="w-full h-full bg-crimson/5 mix-blend-color"></div>
+                        </div>
+                        <div
+                            class="absolute top-4 right-4 z-20 text-crimson opacity-0 group-hover:opacity-100 transition-opacity">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Pillar 2: Exit 6
+                        </p>
+                        <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
+                            The city is a cemetery of failed intentions. Every debt defaulted, every lie whispered under
+                            the neon—it stays here. Ximending doesn't just host the crowds; it archives their decay.
+                        </p>
+                        <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
+                            <span class="text-[10px] text-white/40">#殘執 #Residue</span>
+                            <span
+                                class="text-white/60 group-hover:text-crimson transition-colors text-xs uppercase tracking-tighter flex items-center gap-1">
+                                View on IG
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Post 1 -->
+                <a href="./instagram.html?tab=posts&post=6" target="_blank"
+                    class="glass-card overflow-hidden group block cursor-pointer transition-all hover:scale-[1.01] hover:border-crimson/80">
+                    <div class="aspect-square bg-black relative">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10">
+                        </div>
+                        <div
+                            class="w-full h-full bg-[url('https://images.unsplash.com/photo-1542461979-62f72c4239c9?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center grayscale contrast-125">
+                        </div>
+                        <div
+                            class="absolute top-4 right-4 z-20 text-crimson opacity-0 group-hover:opacity-100 transition-opacity">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Pillar 1: The
+                            Price of Desire</p>
+                        <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
+                            That rush of dopamine lasted exactly three seconds. Now, the void you tried to fill is
+                            leaking into your living room. Every "must-have" comes with a ghost attached.
+                        </p>
+                        <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
+                            <span class="text-[10px] text-white/40">#殘執 #TaipeiNoir</span>
+                            <span
+                                class="text-white/60 group-hover:text-crimson transition-colors text-xs uppercase tracking-tighter flex items-center gap-1">
+                                View on IG
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <!-- Post 2 -->
-            <div class="glass-card overflow-hidden group">
-                <div class="aspect-square bg-black relative">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
-                    <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1578330132822-019688b15e4a?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center grayscale-0">
-                        <div class="w-full h-full bg-crimson/5 mix-blend-color"></div>
-                    </div>
-                </div>
-                <div class="p-6">
-                    <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Pillar 2: Exit 6</p>
-                    <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
-                        The city is a cemetery of failed intentions. Every debt defaulted, every lie whispered under the neon—it stays here. Ximending doesn't just host the crowds; it archives their decay.
-                    </p>
-                    <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
-                        <span class="text-[10px] text-white/40">#殘執 #Residue</span>
-                        <button class="text-white hover:text-crimson transition-colors text-xs uppercase tracking-tighter">View Full Caption</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Post 3 -->
-            <div class="glass-card overflow-hidden group">
-                <div class="aspect-square bg-black relative">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
-                    <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center contrast-150 grayscale"></div>
-                </div>
-                <div class="p-6">
-                    <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Pillar 3: The Anchor</p>
-                    <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
-                        Truth is not a gift; it is a sentence. For every monster Lin Mo drags back into the shadows, the chains grow heavier. How long can you carry the weight?
-                    </p>
-                    <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
-                        <span class="text-[10px] text-white/40">#UrbanDread #LinMo</span>
-                        <button class="text-white hover:text-crimson transition-colors text-xs uppercase tracking-tighter">View Full Caption</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Stories Section -->
-        <div id="content-stories" class="tab-content hidden">
-            <div class="horizontal-scroll flex space-x-6 overflow-x-auto pb-8 snap-x">
-                <!-- Story 1 -->
-                <div class="flex-none w-72 h-[512px] glass-card overflow-hidden snap-center relative group">
-                    <div class="h-1 bg-white/20 w-full absolute top-0 flex space-x-1 p-0.5">
-                        <div class="h-full bg-white/80 w-1/3"></div>
-                        <div class="h-full bg-white/20 w-1/3"></div>
-                        <div class="h-full bg-white/20 w-1/3"></div>
-                    </div>
-                    <div class="mt-8 px-6">
-                        <h4 class="font-serif text-2xl italic text-white mb-12">"It feels like a win..."</h4>
-                        <div class="w-full h-40 bg-charcoal flex items-center justify-center border border-white/10 group-hover:border-crimson transition-colors">
-                            <span class="text-white/20 font-display text-4xl">💸</span>
+            <!-- Stories Section -->
+            <div id="content-stories" class="tab-content hidden">
+                <div class="horizontal-scroll flex space-x-6 overflow-x-auto pb-8 snap-x">
+                    <!-- Story 3 -->
+                    <a href="./instagram.html?stories=true&story=2" target="_blank"
+                        class="flex-none w-72 h-[512px] glass-card overflow-hidden snap-center relative group block text-left">
+                        <div class="h-1 bg-white/20 w-full absolute top-0 flex space-x-1 p-0.5 z-20">
+                            <div class="h-full bg-white/80 w-1/3"></div>
+                            <div class="h-full bg-white/20 w-1/3"></div>
+                            <div class="h-full bg-white/20 w-1/3"></div>
                         </div>
-                        <div class="mt-12 space-y-4">
-                            <p class="text-xs uppercase tracking-widest text-white/40">Interactive Element</p>
-                            <div class="w-full h-12 rounded-full border border-white/20 flex items-center px-4 justify-between bg-white/5">
-                                <span class="text-[10px] text-white/60">Spending yourself?</span>
-                                <div class="w-8 h-8 rounded-full bg-crimson flex items-center justify-center text-xs">💸</div>
+                        <div
+                            class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors pointer-events-none z-10 font-display">
+                            03</div>
+                        <div class="mt-8 px-6">
+                            <p class="text-[10px] text-crimson font-display mb-4 uppercase tracking-widest text-center">
+                                Story 3</p>
+                            <h4 class="font-serif text-2xl italic text-white mb-8">"It feels like a win..."</h4>
+                            <div
+                                class="w-full h-40 bg-charcoal flex items-center justify-center border border-white/10 group-hover:border-crimson transition-colors">
+                                <span class="text-white/20 font-display text-4xl">💸</span>
+                            </div>
+                            <div class="mt-12 space-y-4">
+                                <p class="text-xs uppercase tracking-widest text-white/40">Interactive Element</p>
+                                <div
+                                    class="w-full h-12 rounded-full border border-white/20 flex items-center px-4 justify-between bg-white/5">
+                                    <span class="text-[10px] text-white/60">Spending yourself?</span>
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-crimson flex items-center justify-center text-xs">
+                                        ??</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- Story 2 -->
-                <div class="flex-none w-72 h-[512px] glass-card overflow-hidden snap-center relative bg-[url('https://images.unsplash.com/photo-1549413203-882236940847?auto=format&fit=crop&w=600&q=80')] bg-cover">
-                    <div class="absolute inset-0 bg-black/60 backdrop-blur-[2px]"></div>
-                    <div class="relative z-10 p-6 flex flex-col h-full justify-between">
-                        <div class="text-center mt-12">
-                            <p class="text-xs uppercase tracking-[0.3em] text-crimson font-bold mb-4">Shadow Mapping</p>
-                            <h4 class="font-display text-3xl">The city hides what it cannot digest.</h4>
-                        </div>
-                        <div class="glass-card p-4 text-center">
-                            <p class="text-xs mb-3">Felt watched in an empty street?</p>
-                            <div class="flex flex-col space-y-2">
-                                <button class="w-full py-2 bg-crimson text-[10px] uppercase font-bold tracking-widest">Yes, Always</button>
-                                <button class="w-full py-2 bg-charcoal border border-white/10 text-[10px] uppercase tracking-widest">Not until now</button>
+                    </a>
+                    <!-- Story 2 -->
+                    <a href="./instagram.html?stories=true&story=1" target="_blank"
+                        class="flex-none w-72 h-[512px] glass-card overflow-hidden snap-center relative bg-[url('https://images.unsplash.com/photo-1549413203-882236940847?auto=format&fit=crop&w=600&q=80')] bg-cover group block text-left">
+                        <div class="absolute inset-0 bg-black/60 backdrop-blur-[2px]"></div>
+                        <div
+                            class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors pointer-events-none z-20 font-display">
+                            02</div>
+                        <div class="relative z-10 p-6 flex flex-col h-full justify-between">
+                            <div class="text-center mt-6">
+                                <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Story 2
+                                </p>
+                                <p class="text-xs uppercase tracking-[0.3em] text-white/60 font-bold mb-4">Shadow
+                                    Mapping</p>
+                                <h4 class="font-display text-3xl">The city hides what it cannot digest.</h4>
+                            </div>
+                            <div class="glass-card p-4 text-center">
+                                <p class="text-xs mb-3">Felt watched in an empty street?</p>
+                                <div class="flex flex-col space-y-2">
+                                    <button
+                                        class="w-full py-2 bg-crimson text-[10px] uppercase font-bold tracking-widest">Yes,
+                                        Always</button>
+                                    <button
+                                        class="w-full py-2 bg-charcoal border border-white/10 text-[10px] uppercase tracking-widest">Not
+                                        until now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- Story 3 -->
-                <div class="flex-none w-72 h-[512px] glass-card overflow-hidden snap-center relative flex items-center justify-center">
-                    <div class="text-center">
-                        <h2 class="font-serif text-4xl italic mb-6">殘執</h2>
-                        <button class="px-8 py-3 bg-white text-black font-display text-[10px] uppercase tracking-[0.3em] hover:bg-crimson hover:text-white transition-all">Swipe Up</button>
-                    </div>
+                    </a>
+                    <!-- Story 1 -->
+                    <a href="./instagram.html?stories=true&story=0" target="_blank"
+                        class="flex-none w-72 h-[512px] glass-card overflow-hidden snap-center relative flex items-center justify-center group block">
+                        <div
+                            class="absolute -right-4 -top-4 text-6xl font-black text-white/5 group-hover:text-crimson/20 transition-colors pointer-events-none z-20 font-display">
+                            01</div>
+                        <div class="text-center relative z-10">
+                            <p class="text-[10px] text-crimson font-display mb-4 uppercase tracking-widest">Story 1</p>
+                            <h2 class="font-serif text-4xl italic mb-6">殘執</h2>
+                            <button
+                                class="px-8 py-3 bg-white text-black font-display text-[10px] uppercase tracking-[0.3em] hover:bg-crimson hover:text-white transition-all">Swipe
+                                Up</button>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
 
-        <!-- Reels Section -->
-        <div id="content-reels" class="tab-content hidden space-y-8">
-            <!-- Reel 1 -->
-            <div class="glass-card overflow-hidden">
-                <div class="clapperboard-header h-12 w-full"></div>
-                <div class="grid grid-cols-1 md:grid-cols-2">
-                    <div class="p-8 border-b md:border-b-0 md:border-r border-white/10">
-                        <h3 class="font-display text-2xl mb-4 text-crimson uppercase italic">Reel 1: The Sound of Judgment</h3>
-                        <div id="reel-1-content">
-                            <div class="scene-desc">
-                                <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Scene Description</p>
-                                <p class="text-sm text-white/80 leading-relaxed italic">
-                                    "Open on a black screen. Sound of a heavy chain dragging on concrete. Flash-cut: Lin Mo’s eyes opening in a neon-lit puddle. The camera follows a chain as it whips through the air, shattering a 'Hollow Prosperity' neon sign."
-                                </p>
+            <!-- Reels Section -->
+            <div id="content-reels" class="tab-content hidden space-y-8">
+                <!-- Reel 3 (Newest - Placeholder) -->
+                <div class="glass-card overflow-hidden">
+                    <div class="clapperboard-header h-12 w-full"></div>
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-8 border-b md:border-b-0 md:border-r border-white/10">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-display text-2xl text-crimson uppercase italic">Reel 3: The Video Teaser
+                                </h3>
+                                <a href="./instagram.html?tab=reels&post=0" target="_blank"
+                                    class="text-[10px] font-display uppercase tracking-widest text-white/40 hover:text-crimson transition-colors flex items-center gap-1">
+                                    Watch on IG ↗
+                                </a>
                             </div>
-                            <div class="script-text hidden">
-                                <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Script / Dialogue</p>
-                                <p class="text-sm text-white/80 leading-relaxed font-mono">
-                                    SOUND: [Heavy metallic drag]<br><br>
-                                    LIN MO (V.O.): "They think they can throw it away. But the city... the city never forgets a debt."<br><br>
-                                    [Shattering glass FX]
-                                </p>
-                            </div>
-                        </div>
-                        <button onclick="toggleScript(1)" class="mt-8 text-[10px] font-display uppercase tracking-widest text-crimson hover:text-white transition-colors">Toggle Script/Scene</button>
-                    </div>
-                    <div class="p-8 bg-black/40 flex flex-col justify-center">
-                        <div class="space-y-4">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">A</div>
-                                <div>
-                                    <p class="text-[10px] uppercase text-white/40">Audio Profile</p>
-                                    <p class="text-xs">Industrial Drone x Metallic Clinks</p>
+                            <div id="reel-3-content">
+                                <div class="scene-desc">
+                                    <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Scene
+                                        Description</p>
+                                    <p class="text-sm text-white/80 leading-relaxed italic">
+                                        "Central video clip concept placeholder. A vertical clip preview with industrial
+                                        beats. The atmosphere carries psychological dread."
+                                    </p>
+                                </div>
+                                <div class="script-text hidden">
+                                    <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Script /
+                                        Dialogue</p>
+                                    <p class="text-sm text-white/80 leading-relaxed font-mono">
+                                        SOUND: [Industrial beats and heavy static]<br><br>
+                                        NARRATOR: "Coming soon."
+                                    </p>
                                 </div>
                             </div>
-                            <div class="flex items-center space-x-4">
-                                <div class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">C</div>
-                                <div>
-                                    <p class="text-[10px] uppercase text-white/40">Camera Style</p>
-                                    <p class="text-xs">SnorriCam / Claustrophobic</p>
+                            <button onclick="toggleScript(3)"
+                                class="mt-8 text-[10px] font-display uppercase tracking-widest text-crimson hover:text-white transition-colors">Toggle
+                                Script/Scene</button>
+                        </div>
+                        <div class="p-8 bg-black/40 flex flex-col justify-center">
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">
+                                        A</div>
+                                    <div>
+                                        <p class="text-[10px] uppercase text-white/40">Audio Profile</p>
+                                        <p class="text-xs">Industrial Drone / Static</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">
+                                        C</div>
+                                    <div>
+                                        <p class="text-[10px] uppercase text-white/40">Camera Style</p>
+                                        <p class="text-xs">Handheld Shaky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Reel 2 -->
+                <div class="glass-card overflow-hidden">
+                    <div class="clapperboard-header h-12 w-full"></div>
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-8 border-b md:border-b-0 md:border-r border-white/10">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-display text-2xl text-crimson uppercase italic">Reel 2: The Unboxing
+                                </h3>
+                                <a href="./instagram.html?tab=reels&post=1" target="_blank"
+                                    class="text-[10px] font-display uppercase tracking-widest text-white/40 hover:text-crimson transition-colors flex items-center gap-1">
+                                    Watch on IG ↗
+                                </a>
+                            </div>
+                            <div id="reel-2-content">
+                                <div class="scene-desc">
+                                    <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Scene
+                                        Description</p>
+                                    <p class="text-sm text-white/80 leading-relaxed italic">
+                                        "A parody of a 'POV: Unboxing' video. As the box opens, saturation drains out. A
+                                        mass of black, pulsating 'Residue' erupts, crawling up the influencer's arms and
+                                        turning into the Chains of Judgment."
+                                    </p>
+                                </div>
+                                <div class="script-text hidden">
+                                    <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Script /
+                                        Dialogue</p>
+                                    <p class="text-sm text-white/80 leading-relaxed font-mono">
+                                        INFLUENCER: "Omg you guys, I finally got the rare one—"<br><br>
+                                        [Audio glitched scratch]<br><br>
+                                        [High pitched tinnitus sound rises]
+                                    </p>
+                                </div>
+                            </div>
+                            <button onclick="toggleScript(2)"
+                                class="mt-8 text-[10px] font-display uppercase tracking-widest text-crimson hover:text-white transition-colors">Toggle
+                                Script/Scene</button>
+                        </div>
+                        <div class="p-8 bg-black/40 flex flex-col justify-center">
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">
+                                        A</div>
+                                    <div>
+                                        <p class="text-[10px] uppercase text-white/40">Audio Profile</p>
+                                        <p class="text-xs">Lo-Fi Unboxing -> Digital Static</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">
+                                        C</div>
+                                    <div>
+                                        <p class="text-[10px] uppercase text-white/40">Camera Style</p>
+                                        <p class="text-xs">Tripod Stable -> Frantic Handheld</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Reel 1 -->
+                <div class="glass-card overflow-hidden">
+                    <div class="clapperboard-header h-12 w-full"></div>
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="p-8 border-b md:border-b-0 md:border-r border-white/10">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="font-display text-2xl text-crimson uppercase italic">Reel 1: The Sound of
+                                    Judgment</h3>
+                                <a href="./instagram.html?tab=reels&post=2" target="_blank"
+                                    class="text-[10px] font-display uppercase tracking-widest text-white/40 hover:text-crimson transition-colors flex items-center gap-1">
+                                    Watch on IG ↗
+                                </a>
+                            </div>
+                            <div id="reel-1-content">
+                                <div class="scene-desc">
+                                    <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Scene
+                                        Description</p>
+                                    <p class="text-sm text-white/80 leading-relaxed italic">
+                                        "Open on a black screen. Sound of a heavy chain dragging on concrete. Flash-cut:
+                                        Lin Mo’s eyes opening in a neon-lit puddle. The camera follows a chain as it
+                                        whips through the air, shattering a 'Hollow Prosperity' neon sign."
+                                    </p>
+                                </div>
+                                <div class="script-text hidden">
+                                    <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Script /
+                                        Dialogue</p>
+                                    <p class="text-sm text-white/80 leading-relaxed font-mono">
+                                        SOUND: [Heavy metallic drag]<br><br>
+                                        LIN MO (V.O.): "They think they can throw it away. But the city... the city
+                                        never forgets a debt."<br><br>
+                                        [Shattering glass FX]
+                                    </p>
+                                </div>
+                            </div>
+                            <button onclick="toggleScript(1)"
+                                class="mt-8 text-[10px] font-display uppercase tracking-widest text-crimson hover:text-white transition-colors">Toggle
+                                Script/Scene</button>
+                        </div>
+                        <div class="p-8 bg-black/40 flex flex-col justify-center">
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">
+                                        A</div>
+                                    <div>
+                                        <p class="text-[10px] uppercase text-white/40">Audio Profile</p>
+                                        <p class="text-xs">Industrial Drone x Metallic Clinks</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">
+                                        C</div>
+                                    <div>
+                                        <p class="text-[10px] uppercase text-white/40">Camera Style</p>
+                                        <p class="text-xs">SnorriCam / Claustrophobic</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Reel 2 -->
-            <div class="glass-card overflow-hidden">
-                <div class="clapperboard-header h-12 w-full"></div>
-                <div class="grid grid-cols-1 md:grid-cols-2">
-                    <div class="p-8 border-b md:border-b-0 md:border-r border-white/10">
-                        <h3 class="font-display text-2xl mb-4 text-crimson uppercase italic">Reel 2: The Unboxing</h3>
-                        <div id="reel-2-content">
-                            <div class="scene-desc">
-                                <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Scene Description</p>
-                                <p class="text-sm text-white/80 leading-relaxed italic">
-                                    "A parody of a 'POV: Unboxing' video. As the box opens, saturation drains out. A mass of black, pulsating 'Residue' erupts, crawling up the influencer's arms and turning into the Chains of Judgment."
-                                </p>
-                            </div>
-                            <div class="script-text hidden">
-                                <p class="text-[10px] text-white/40 uppercase mb-4 tracking-widest">Script / Dialogue</p>
-                                <p class="text-sm text-white/80 leading-relaxed font-mono">
-                                    INFLUENCER: "Omg you guys, I finally got the rare one—"<br><br>
-                                    [Audio glitched scratch]<br><br>
-                                    [High pitched tinnitus sound rises]
-                                </p>
-                            </div>
+
+            <!-- Tagged Section -->
+            <div id="content-tagged" class="tab-content hidden">
+                <a href="./instagram.html?tab=tagged&post=0" target="_blank"
+                    class="glass-card overflow-hidden group block cursor-pointer transition-all hover:scale-[1.01] hover:border-crimson/80">
+                    <div class="aspect-square bg-black relative">
+                        <!-- Custom tag label simulating Tagged UI -->
+                        <div
+                            class="absolute top-[40%] left-[30%] bg-black/90 text-white text-[9px] font-semibold px-2 py-0.5 rounded flex items-center gap-1 shadow-lg border border-white/10 z-20">
+                            <svg class="w-2.5 h-2.5 text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+                            </svg>
+                            <span>@residue_studio</span>
                         </div>
-                        <button onclick="toggleScript(2)" class="mt-8 text-[10px] font-display uppercase tracking-widest text-crimson hover:text-white transition-colors">Toggle Script/Scene</button>
-                    </div>
-                    <div class="p-8 bg-black/40 flex flex-col justify-center">
-                        <div class="space-y-4">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">A</div>
-                                <div>
-                                    <p class="text-[10px] uppercase text-white/40">Audio Profile</p>
-                                    <p class="text-xs">Lo-Fi Unboxing -> Digital Static</p>
-                                </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10">
+                        </div>
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-charcoal to-neutral-950">
+                            <div
+                                class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/40 mb-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                </svg>
                             </div>
-                            <div class="flex items-center space-x-4">
-                                <div class="w-8 h-8 rounded-full border border-crimson flex items-center justify-center text-xs">C</div>
-                                <div>
-                                    <p class="text-[10px] uppercase text-white/40">Camera Style</p>
-                                    <p class="text-xs">Tripod Stable -> Frantic Handheld</p>
-                                </div>
-                            </div>
+                            <span class="text-[9px] font-mono tracking-widest text-white/30 uppercase">Tagged Photo
+                                Placeholder</span>
                         </div>
                     </div>
-                </div>
+                    <div class="p-6">
+                        <p class="text-[10px] text-crimson font-display mb-2 uppercase tracking-widest">Tagged Photo:
+                            Ximending</p>
+                        <p class="text-sm text-white/80 line-clamp-4 font-sans leading-relaxed">
+                            Look who we spotted at Exit 6. Lin Mo's chains are looking heavier tonight. Who's backing
+                            Residue Studio? 🤫 台北街頭直擊 #殘執 #LinMo #TaipeiNoir
+                        </p>
+                        <div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between">
+                            <span class="text-[10px] text-white/40">#Tagged #Exit6</span>
+                            <span
+                                class="text-white/60 group-hover:text-crimson transition-colors text-xs uppercase tracking-tighter flex items-center gap-1">
+                                View on IG
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Dummy grid cells to keep it 3 columns styled on desktop -->
+                <div class="hidden md:block glass-card border border-white/5 opacity-10 aspect-square rounded-md"></div>
+                <div class="hidden md:block glass-card border border-white/5 opacity-10 aspect-square rounded-md"></div>
             </div>
         </div>
     </section>
 
     <!-- Metadata Section (Simplified replacement for footer) -->
     <section class="pb-24 pt-12 px-6">
-        <div class="max-w-7xl mx-auto border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.4em] text-white/20 font-display">
+        <div
+            class="max-w-7xl mx-auto border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-[0.4em] text-white/20 font-display">
             <div class="mb-4 md:mb-0">Residue Studio © 2024 Project Noir</div>
             <div class="flex space-x-8">
                 <span>Taipei, TW</span>
@@ -448,7 +782,7 @@
         function switchTab(tab) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
-            
+
             document.getElementById(`content-${tab}`).classList.remove('hidden');
             document.getElementById(`tab-${tab}`).classList.add('active');
         }
@@ -458,7 +792,7 @@
             const container = document.getElementById(`reel-${id}-content`);
             const desc = container.querySelector('.scene-desc');
             const script = container.querySelector('.script-text');
-            
+
             if (desc.classList.contains('hidden')) {
                 desc.classList.remove('hidden');
                 script.classList.add('hidden');
@@ -469,4 +803,5 @@
         }
     </script>
 </body>
+
 </html>

@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residue Studio (@residue) • Instagram photos and videos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        igBg: '#000000',
+                        igBorder: '#262626',
+                        igCard: '#121212',
+                        igTextPrimary: '#F5F5F5',
+                        igTextSecondary: '#A8A8A8',
+                        igLink: '#0095F6',
+                        igLinkHover: '#1877F2',
+                        igHoverBg: 'rgba(255, 255, 255, 0.08)',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #000000;
+            color: #F5F5F5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            overflow-y: scroll;
+        }
+
+        .comments-scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .comments-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .comments-scroll::-webkit-scrollbar-thumb {
+            background: #262626;
+            border-radius: 2px;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .story-ring {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                transform: translateX(-6px);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                transform: translateX(6px);
+            }
+        }
+
+        .animate-shake {
+            animation: shake 0.4s ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="bg-igBg text-igTextPrimary min-h-screen flex flex-col md:flex-row antialiased">
+
+    <!-- DESKTOP LEFT SIDEBAR -->
+    <aside
+        class="hidden md:flex flex-col fixed top-0 left-0 h-full w-[72px] xl:w-[244px] border-r border-igBorder px-3 py-6 bg-igBg z-30 transition-all duration-300">
+        <a href="./index.html" class="mb-10 px-3 block">
+            <span
+                class="hidden xl:block font-serif text-2xl tracking-widest font-black italic bg-gradient-to-r from-white via-white to-neutral-500 bg-clip-text text-transparent">RESIDUE</span>
+            <span class="block xl:hidden font-serif text-2xl font-black italic text-white text-center">R</span>
+        </a>
+
+        <nav class="flex-1 space-y-2">
+            <a href="./index.html"
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                    <path d="M9 21V12h6v9" fill="none" stroke="currentColor" stroke-width="2" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Back to Studio</span>
+            </a>
+            <div
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group cursor-not-allowed opacity-80">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="none"
+                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="M21 21l-4.35-4.35" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Search</span>
+            </div>
+            <div
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group cursor-not-allowed opacity-80">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="none"
+                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <polygon points="3 6 17 2 21 16 7 20 3 6" />
+                    <line x1="12" y1="12" x2="12" y2="12" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Explore</span>
+            </div>
+            <div
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group cursor-not-allowed opacity-80">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="none"
+                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                    <path d="M21 8H3m0 8h18M8 3v18m8-18v18" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Reels</span>
+            </div>
+            <div
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group cursor-not-allowed opacity-80">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="none"
+                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Messages</span>
+            </div>
+            <div
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group cursor-not-allowed opacity-80">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="none"
+                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path
+                        d="M12 22a2 2 0 0 0 2-2H10a2 2 0 0 0 2 2zm6-6V10a6 6 0 0 0-9-5.19 1 1 0 0 0-.5.81v9.38l-2 2h14l-2-2z" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Notifications</span>
+            </div>
+            <div
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg transition-all group cursor-not-allowed opacity-80">
+                <svg class="w-6 h-6 text-igTextPrimary group-hover:scale-105 transition-transform" fill="none"
+                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                    <line x1="12" y1="8" x2="12" y2="16" />
+                    <line x1="8" y1="12" x2="16" y2="12" />
+                </svg>
+                <span class="hidden xl:inline text-sm font-medium">Create</span>
+            </div>
+            <a href="#"
+                class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg bg-igHoverBg xl:bg-transparent font-bold transition-all group">
+                <div
+                    class="w-6 h-6 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-igTextSecondary group-hover:scale-105 transition-transform font-mono font-bold">
+                    R</div>
+                <span class="hidden xl:inline text-sm">Profile</span>
+            </a>
+        </nav>
+
+        <div class="mt-auto px-3">
+            <div
+                class="flex items-center gap-4 py-3 rounded-xl hover:bg-igHoverBg transition-all cursor-not-allowed opacity-50">
+                <svg class="w-6 h-6 text-igTextPrimary" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+                <span class="hidden xl:inline text-sm">More</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MOBILE TOP HEADER -->
+    <header
+        class="flex md:hidden items-center justify-between px-4 py-3 border-b border-igBorder fixed top-0 left-0 w-full bg-igBg z-20">
+        <a href="./index.html"
+            class="flex items-center gap-1.5 text-igTextSecondary hover:text-igTextPrimary transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+            <span class="text-xs uppercase tracking-wider font-medium">Studio</span>
+        </a>
+        <span class="font-semibold text-sm flex items-center gap-1">residue
+            <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                <path
+                    d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+            </svg>
+        </span>
+        <div class="w-5"></div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main
+        class="flex-1 md:ml-[72px] xl:ml-[244px] flex flex-col items-center px-4 md:px-12 pt-20 md:pt-10 pb-20 md:pb-10 max-w-full">
+        <div class="w-full max-w-[935px]">
+
+            <!-- PROFILE HEADER -->
+            <header
+                class="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-12 pb-10 border-b border-igBorder">
+                <div class="relative flex-none">
+                    <div onclick="openStoriesModal(0)"
+                        class="w-[84px] h-[84px] sm:w-[150px] sm:h-[150px] rounded-full p-[3px] story-ring flex items-center justify-center cursor-pointer hover:scale-[1.03] active:scale-[0.97] transition-all duration-200"
+                        title="View Stories">
+                        <div
+                            class="w-full h-full rounded-full bg-black flex items-center justify-center border-2 border-black overflow-hidden relative">
+                            <div class="w-full h-full bg-neutral-900 flex flex-col items-center justify-center">
+                                <span
+                                    class="font-serif text-3xl sm:text-5xl font-black italic tracking-widest text-neutral-300">殘</span>
+                                <span
+                                    class="absolute bottom-2 text-[8px] sm:text-[10px] tracking-widest text-crimson font-bold uppercase">Residue</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-1 space-y-5 text-center sm:text-left w-full">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+                        <div class="flex items-center justify-center sm:justify-start gap-2">
+                            <h2 class="text-xl font-normal tracking-wide">residue</h2>
+                            <svg class="w-[18px] h-[18px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+                            </svg>
+                        </div>
+
+                        <div class="flex justify-center sm:justify-start gap-2 text-sm">
+                            <button
+                                class="px-4 py-1.5 bg-[#efefef] hover:bg-[#dbdbdb] text-black font-semibold rounded-lg transition-colors text-xs sm:text-sm">Following</button>
+                            <button
+                                class="px-4 py-1.5 bg-[#262626] hover:bg-[#363636] text-igTextPrimary font-semibold rounded-lg transition-colors text-xs sm:text-sm">Message</button>
+                        </div>
+                    </div>
+
+                    <ul class="hidden sm:flex items-center gap-10 text-sm">
+                        <li><span class="font-semibold text-igTextPrimary">7</span> posts</li>
+                        <li><span class="font-semibold text-igTextPrimary">91,420</span> followers</li>
+                        <li><span class="font-semibold text-igTextPrimary">2</span> following</li>
+                    </ul>
+
+                    <div class="text-sm space-y-1">
+                        <h1 class="font-semibold text-igTextPrimary">Residue | 殘執</h1>
+                        <p class="text-igTextSecondary text-xs">TV show / Game </p>
+                        <p class="text-igTextPrimary leading-relaxed">
+                            -- Survival Horror --<br>
+                            "The city remembers what you’ve forgotten."
+                            <br>
+                            「這座城市，替你記住了你所遺忘的。」
+                        </p>
+                        <a href="./index.html"
+                            class="block text-igLink hover:text-igLinkHover hover:underline font-semibold text-xs tracking-wide">
+                            🔗 residue.com
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- PROFILE STATS MOBILE ROW -->
+            <div class="sm:hidden flex items-center justify-around py-3 border-b border-igBorder text-center text-xs">
+                <div>
+                    <div class="font-bold text-igTextPrimary">4</div>
+                    <div class="text-igTextSecondary">posts</div>
+                </div>
+                <div>
+                    <div class="font-bold text-igTextPrimary">1,420</div>
+                    <div class="text-igTextSecondary">followers</div>
+                </div>
+                <div>
+                    <div class="font-bold text-igTextPrimary">382</div>
+                    <div class="text-igTextSecondary">following</div>
+                </div>
+            </div>
+
+            <!-- TABS NAVIGATION -->
+            <div class="flex justify-center border-b border-transparent">
+                <div class="flex gap-16 text-xs uppercase tracking-[0.2em] font-semibold">
+                    <button id="tab-posts" onclick="switchTab('posts')"
+                        class="flex items-center gap-1.5 py-4 border-t border-igTextPrimary text-igTextPrimary -mt-px transition-colors duration-200">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                            <line x1="3" y1="9" x2="21" y2="9" />
+                            <line x1="3" y1="15" x2="21" y2="15" />
+                            <line x1="9" y1="3" x2="9" y2="21" />
+                            <line x1="15" y1="3" x2="15" y2="21" />
+                        </svg>
+                        <span>Posts</span>
+                    </button>
+                    <button id="tab-reels" onclick="switchTab('reels')"
+                        class="flex items-center gap-1.5 py-4 border-t border-transparent text-igTextSecondary hover:text-igTextPrimary transition-colors duration-200">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <rect x="5" y="3" width="14" height="18" rx="2" ry="2" />
+                            <path d="M12 3v18" />
+                        </svg>
+                        <span>Reels</span>
+                    </button>
+                    <button id="tab-tagged" onclick="switchTab('tagged')"
+                        class="flex items-center gap-1.5 py-4 border-t border-transparent text-igTextSecondary hover:text-igTextPrimary transition-colors duration-200">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg>
+                        <span>Tagged</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- POST GRID SECTION -->
+            <section class="py-6">
+                <!-- Posts Content -->
+                <div id="content-posts" class="tab-content grid grid-cols-3 gap-1 md:gap-7">
+                    <!-- Post 0 (Post 4) - May 29, 2026 (Image) -->
+                    <div onclick="openModal('posts', 0)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40">
+                                    <svg class="w-6 h-6 text-neutral-400 group-hover:text-white transition-colors"
+                                        fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Post 4 Image</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Aspect Ratio</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>61,775</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>951</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Post 1 (Pillar 3) - May 27, 2026 (Image) -->
+                    <div onclick="openModal('posts', 1)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40">
+                                    <svg class="w-6 h-6 text-neutral-400 group-hover:text-white transition-colors"
+                                        fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Pillar 3 Image</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Aspect Ratio</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>46,127</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>412</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Post 2 (Pillar 2) - May 19, 2026 (Image) -->
+                    <div onclick="openModal('posts', 2)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40">
+                                    <svg class="w-6 h-6 text-neutral-400 group-hover:text-white transition-colors"
+                                        fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Pillar 2 Image</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Aspect Ratio</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>37,450</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>342</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Post 3 (Reel 3) - May 13, 2026 (Reel) -->
+                    <div onclick="openModal('posts', 3)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <!-- Reels Watermark Icon -->
+                            <div
+                                class="absolute top-2.5 right-2.5 text-neutral-400 z-10 pointer-events-none drop-shadow">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <rect x="5" y="3" width="14" height="18" rx="2" ry="2" />
+                                    <path d="M12 3v18M5 8h14M5 16h14" />
+                                </svg>
+                            </div>
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40 text-crimson">
+                                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Reel 3 Video</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Crop / Reel</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>44,018</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>1,267</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Post 4 (Reel 2) - May 10, 2026 (Reel) -->
+                    <div onclick="openModal('posts', 4)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <!-- Reels Watermark Icon -->
+                            <div
+                                class="absolute top-2.5 right-2.5 text-neutral-400 z-10 pointer-events-none drop-shadow">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <rect x="5" y="3" width="14" height="18" rx="2" ry="2" />
+                                    <path d="M12 3v18M5 8h14M5 16h14" />
+                                </svg>
+                            </div>
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40 text-crimson">
+                                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Reel 2 Video</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Crop / Reel</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>36,012</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>482</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Post 5 (Reel 1) - May 7, 2026 (Reel) -->
+                    <div onclick="openModal('posts', 5)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <!-- Reels Watermark Icon -->
+                            <div
+                                class="absolute top-2.5 right-2.5 text-neutral-400 z-10 pointer-events-none drop-shadow">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <rect x="5" y="3" width="14" height="18" rx="2" ry="2" />
+                                    <path d="M12 3v18M5 8h14M5 16h14" />
+                                </svg>
+                            </div>
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40 text-crimson">
+                                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Reel 1 Video</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Crop / Reel</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>19,842</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>193</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Post 6 (Pillar 1) - May 2, 2026 (Image) -->
+                    <div onclick="openModal('posts', 6)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40">
+                                    <svg class="w-6 h-6 text-neutral-400 group-hover:text-white transition-colors"
+                                        fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Pillar 1 Image</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Aspect Ratio</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>13,520</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>523</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reels Content -->
+                <div id="content-reels" class="tab-content hidden grid grid-cols-3 gap-1 md:gap-7">
+                    <!-- Reel 0 (Interactive) -->
+                    <div onclick="openModal('reels', 0)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40 text-crimson">
+                                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Reel 3 Video</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">9:16 Aspect Ratio
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>44,018</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>1,267</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Reel 1 (Interactive) -->
+                    <div onclick="openModal('reels', 1)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40 text-crimson">
+                                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Reel 2 Video</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">9:16 Aspect Ratio
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>36,012</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>482</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Reel 2 (Interactive) -->
+                    <div onclick="openModal('reels', 2)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40 text-crimson">
+                                    <svg class="w-5 h-5 ml-0.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Reel 1 Video</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">9:16 Aspect Ratio
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>19,842</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>193</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tagged Content -->
+                <div id="content-tagged" class="tab-content hidden grid grid-cols-3 gap-1 md:gap-7">
+                    <!-- Tagged 1 (Interactive) -->
+                    <div onclick="openModal('tagged', 0)"
+                        class="aspect-square bg-igCard border border-igBorder relative group cursor-pointer overflow-hidden rounded-md transition-all hover:brightness-110">
+                        <div
+                            class="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-br from-neutral-900 via-[#161616] to-[#0d0d0d] relative group">
+                            <div
+                                class="text-center space-y-3 z-10 transition-transform group-hover:scale-95 duration-500">
+                                <div
+                                    class="w-12 h-12 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/40">
+                                    <svg class="w-5 h-5 text-neutral-400" fill="none" stroke="currentColor"
+                                        stroke-width="1.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <p
+                                        class="text-[10px] sm:text-xs font-mono font-medium tracking-widest text-neutral-400 uppercase">
+                                        Tagged Photo</p>
+                                    <p class="text-[8px] sm:text-[10px] text-neutral-600 font-mono">1:1 Aspect Ratio</p>
+                                </div>
+                            </div>
+                            <div
+                                class="absolute inset-2 border border-neutral-800/40 pointer-events-none rounded transition-colors group-hover:border-neutral-700/60">
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-6 text-white font-semibold transition-opacity duration-300 z-10">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>
+                                <span>3,125</span>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z" />
+                                </svg>
+                                <span>108</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Dummy cells -->
+                    <div
+                        class="aspect-square bg-[#050505] border border-igBorder/30 rounded-md relative flex items-center justify-center opacity-10">
+                        <div class="w-6 h-6 border border-neutral-800 rounded"></div>
+                    </div>
+                    <div
+                        class="aspect-square bg-[#050505] border border-igBorder/30 rounded-md relative flex items-center justify-center opacity-10">
+                        <div class="w-6 h-6 border border-neutral-800 rounded"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- MOBILE BOTTOM NAVIGATION (Visible on mobile, below md) -->
+    <nav
+        class="flex md:hidden items-center justify-around fixed bottom-0 left-0 w-full h-[52px] bg-igBg border-t border-igBorder z-20 px-6">
+        <!-- Home Icon -->
+        <a href="./index.html" class="text-igTextPrimary hover:text-white transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+        </a>
+        <!-- Search Icon -->
+        <div class="text-igTextSecondary cursor-not-allowed opacity-50">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8" />
+                <path d="M21 21l-4.35-4.35" />
+            </svg>
+        </div>
+        <!-- Create Icon -->
+        <div class="text-igTextSecondary cursor-not-allowed opacity-50">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <line x1="12" y1="8" x2="12" y2="16" />
+                <line x1="8" y1="12" x2="16" y2="12" />
+            </svg>
+        </div>
+        <!-- Reels Icon -->
+        <div class="text-igTextSecondary cursor-not-allowed opacity-50">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <path d="M21 8H3m0 8h18M8 3v18m8-18v18" />
+            </svg>
+        </div>
+        <!-- Profile Icon -->
+        <a href="#"
+            class="w-6 h-6 rounded-full bg-neutral-800 border border-igTextPrimary flex items-center justify-center text-[9px] font-bold text-igTextPrimary">R</a>
+    </nav>
+
+    <!-- LIGHTBOX DETAILED POST MODAL (Hidden by default) -->
+    <div id="postModal"
+        class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-0 sm:p-4 md:p-10 hidden transition-opacity duration-300 opacity-0">
+        <!-- Close overlay trigger -->
+        <div onclick="closeModal()" class="absolute inset-0 cursor-default"></div>
+
+        <!-- Desktop Modal layout container -->
+        <div
+            class="relative w-full max-w-[935px] max-h-full sm:max-h-[90vh] bg-black sm:bg-[#121212] border-0 sm:border border-igBorder flex flex-col md:flex-row z-10 overflow-hidden sm:rounded-md shadow-2xl">
+
+            <!-- Close Button (Visible in top right corner of screen) -->
+            <button onclick="closeModal()"
+                class="absolute top-4 right-4 md:-top-10 md:right-0 text-white hover:text-igTextSecondary transition-colors font-medium text-xl z-20">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <!-- LEFT COL: Image/Media/Reel Placeholder -->
+            <div id="modalMediaContainer"
+                class="flex-1 bg-black flex items-center justify-center relative select-none min-h-[300px] md:h-full">
+                <!-- Will be dynamically populated -->
+            </div>
+
+            <!-- RIGHT COL: Feed Info, Comments and Interaction -->
+            <div
+                class="w-full md:w-[380px] flex flex-col bg-[#121212] h-[400px] md:h-auto justify-between select-text border-t md:border-t-0 md:border-l border-igBorder">
+
+                <!-- 1. Header (User Info) -->
+                <header class="flex items-center justify-between p-4 border-b border-igBorder flex-shrink-0">
+                    <div class="flex items-center gap-3">
+                        <!-- Tiny Avatar -->
+                        <div
+                            class="w-8 h-8 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 font-bold">
+                            殘</div>
+                        <div>
+                            <div class="flex items-center gap-1">
+                                <span class="font-semibold text-sm hover:underline cursor-pointer">residue</span>
+                                <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+                                </svg>
+                            </div>
+                            <span id="modalLocation" class="text-[10px] text-igTextSecondary">Taipei, Taiwan</span>
+                        </div>
+                    </div>
+                    <button class="text-igTextPrimary hover:text-igTextSecondary cursor-not-allowed opacity-50">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+                        </svg>
+                    </button>
+                </header>
+
+                <!-- 2. Scrollable Comments List -->
+                <div id="modalCommentsContainer" class="flex-1 p-4 space-y-4 overflow-y-auto comments-scroll text-sm">
+                    <!-- Will be dynamically populated -->
+                </div>
+
+                <!-- 3. Bottom Actions & Likes -->
+                <div class="border-t border-igBorder p-4 space-y-2.5 flex-shrink-0">
+                    <!-- Icons Row -->
+                    <div class="flex justify-between items-center text-igTextPrimary">
+                        <div class="flex gap-4">
+                            <!-- Heart (Interactive) -->
+                            <button id="likeBtn" onclick="toggleLike()"
+                                class="hover:text-igTextSecondary transition-colors">
+                                <svg id="heartIcon" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                </svg>
+                            </button>
+                            <!-- Comment -->
+                            <button class="hover:text-igTextSecondary transition-colors" onclick="focusCommentInput()">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                                </svg>
+                            </button>
+                            <!-- Share -->
+                            <button class="hover:text-igTextSecondary transition-colors cursor-not-allowed opacity-50">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.684 10.742l5.028-2.514m0 0a3 3 0 10-3-5.367a3 3 0 003 5.367zm0 5.632l-5.028-2.514m0 0a3 3 0 103 5.367a3 3 0 00-3-5.367z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- Bookmark -->
+                        <button class="hover:text-igTextSecondary transition-colors cursor-not-allowed opacity-50">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Likes count -->
+                    <div class="text-sm font-semibold">
+                        <span id="likesCount">0</span> likes
+                    </div>
+
+                    <!-- Timestamp -->
+                    <div id="modalTimestamp" class="text-[10px] text-igTextSecondary uppercase tracking-wider">
+                        May 30, 2026
+                    </div>
+                </div>
+
+                <!-- 4. Add Comment Form -->
+                <form onsubmit="postComment(event)"
+                    class="border-t border-igBorder p-4 flex gap-3 items-center flex-shrink-0">
+                    <span class="text-lg select-none">😀</span>
+                    <input type="text" id="commentInput" placeholder="Add a comment..."
+                        class="flex-1 bg-transparent text-sm border-0 focus:ring-0 focus:outline-none placeholder-igTextSecondary text-igTextPrimary"
+                        autocomplete="off">
+                    <button type="submit"
+                        class="text-igLink font-semibold hover:text-igLinkHover text-sm transition-colors">Post</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL & TABS SCRIPT -->
+    <script>
+        // Data Structure for the three distinct simulated posts
+        const postData = {
+            posts: [
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg">
+                                    <svg class="w-10 h-10 text-neutral-400" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Post 4 Image</h3>
+                                    <p class="text-xs text-neutral-500 max-w-xs mx-auto">Please replace this container with your final 1:1 format post graphic later.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">IMAGE_04.JPG</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-square",
+                    caption: `In Taipei's neon mecca, the things we discard grow teeth. 台北霓虹燈火下的殘留物與深重執念。 📸 #殘執 #Placeholder #Taipei`,
+                    likes: 61775,
+                    commentsCount: 951,
+                    isLiked: false,
+                    comments: [
+                        { user: "residue", userGlyph: "殘", text: "New visual concept coming soon.", time: "1h", likes: "0 likes" }
+                    ],
+                    location: "Taipei, Taiwan",
+                    date: "May 29, 2026",
+                    timeAgo: "3d"
+                },
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg">
+                                    <svg class="w-10 h-10 text-neutral-400" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Pillar 3 Image</h3>
+                                    <p class="text-xs text-neutral-500 max-w-xs mx-auto">Please replace this container with your final 1:1 format post graphic later.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">IMAGE_03.JPG</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-square",
+                    caption: `Truth is not a gift; it is a sentence. For every monster Lin Mo drags back into the shadows, the chains grow heavier. How long can you carry the weight? ⛓️ #UrbanDread #LinMo`,
+                    likes: 46127,
+                    commentsCount: 412,
+                    isLiked: false,
+                    comments: [
+                        { user: "lin_mo", userGlyph: "默", text: "Every judgment is an anchor. 審判 is my anchor, and also my bounds.", time: "2d", likes: "18 likes" },
+                        { user: "ghost_hunter", userGlyph: "G", text: "Heavy is the head that wears the crown... or the chains in this case. Nice shot!", time: "1d", likes: "2 likes" }
+                    ],
+                    location: "The Underbelly, Taipei",
+                    date: "May 27, 2026",
+                    timeAgo: "4d"
+                },
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg">
+                                    <svg class="w-10 h-10 text-neutral-400" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Pillar 2 Image</h3>
+                                    <p class="text-xs text-neutral-500 max-w-xs mx-auto">Please replace this container with your final 1:1 format post graphic later.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">IMAGE_02.JPG</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-square",
+                    caption: `The city is a cemetery of failed intentions. Every debt defaulted, every lie whispered under the neon—it stays here. Ximending doesn't just host the crowds; it archives their decay. 🌃 #殘執 #Residue`,
+                    likes: 37450,
+                    commentsCount: 342,
+                    isLiked: false,
+                    comments: [
+                        { user: "detective_chen", userGlyph: "C", text: "Look closely at the shadow behind the pillar in Exit 6. It's moving.", time: "1d", likes: "5 likes" },
+                        { user: "taipei_noir_fan", userGlyph: "T", text: "Taipei Exit 6 is iconic but so eerie in this universe. #GothicTaipei", time: "20h", likes: "1 like" }
+                    ],
+                    location: "Ximending Exit 6, Taipei",
+                    date: "May 19, 2026",
+                    timeAgo: "12d"
+                },
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg">
+                                    <svg class="w-10 h-10 text-neutral-400" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                                        <circle cx="12" cy="13" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Pillar 1 Image</h3>
+                                    <p class="text-xs text-neutral-500 max-w-xs mx-auto">Please replace this container with your final 1:1 format post graphic later.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">IMAGE_01.JPG</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-square",
+                    caption: `That rush of dopamine lasted exactly three seconds. Now, the void you tried to fill is leaking into your living room. Every "must-have" comes with a ghost attached. 💸 #殘執 #TaipeiNoir`,
+                    likes: 13520,
+                    commentsCount: 523,
+                    isLiked: false,
+                    comments: [
+                        { user: "lin_mo", userGlyph: "默", text: "The weight of the chains increases with every judgment. You think you buy freedom, but you only purchase tighter bounds. 審判 the weight... who will carry it?", time: "18h", likes: "12 likes" },
+                        { user: "taipei_noir_fan", userGlyph: "T", text: "The gothic noir vibe here is incredibly thick. Loving the tone and atmosphere! Taipei Exit 6 represents so much dread.", time: "12h", likes: "3 likes" },
+                        { user: "city_ghost_99", userGlyph: "C", text: "We are all residues of Taipei. #殘執 #UrbanDread", time: "4h", likes: "1 like" }
+                    ],
+                    location: "Taipei, Taiwan",
+                    date: "May 2, 2026",
+                    timeAgo: "29d"
+                }
+            ],
+            reels: [
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4 py-8 max-w-xs">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg animate-pulse text-crimson">
+                                    <svg class="w-10 h-10 ml-1 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Reels Video Placeholder 3</h3>
+                                    <p class="text-xs text-neutral-500">Please replace this container with your Reel 3 vertical video.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">REEL_03.MP4</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-[9/16] max-h-[60vh] md:max-h-full py-4 md:py-8",
+                    caption: `Please insert caption here for the 3rd Reel video. 🎬 #Reels #Placeholder #殘執`,
+                    likes: 44018,
+                    commentsCount: 1267,
+                    isLiked: false,
+                    comments: [
+                        { user: "residue", userGlyph: "殘", text: "Teaser video clip incoming.", time: "2h", likes: "0 likes" }
+                    ],
+                    location: "Taipei, Taiwan",
+                    date: "May 13, 2026",
+                    timeAgo: "19d"
+                },
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4 py-8 max-w-xs">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg animate-pulse text-crimson">
+                                    <svg class="w-10 h-10 ml-1 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Reels Video Placeholder 2</h3>
+                                    <p class="text-xs text-neutral-500">Please replace this container with your Reel 2 vertical video.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">REEL_02.MP4</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-[9/16] max-h-[60vh] md:max-h-full py-4 md:py-8",
+                    caption: `A parody of a "POV: Unboxing" video. As the box opens, saturation drains out. A mass of black, pulsating "Residue" erupts, crawling up the influencer's arms and turning into the Chains of Judgment. 📦🖤 #Reels #POV #Unboxing`,
+                    likes: 36012,
+                    commentsCount: 482,
+                    isLiked: false,
+                    comments: [
+                        { user: "influencer_slay", userGlyph: "I", text: "I literally screamed at that part!! That residue look is too real.", time: "1d", likes: "12 likes" },
+                        { user: "unboxing_king", userGlyph: "U", text: "Worst unboxing ever (but best VFX ever!) #殘執", time: "1d", likes: "4 likes" }
+                    ],
+                    location: "Unboxing Set, Taipei",
+                    date: "May 10, 2026",
+                    timeAgo: "24d"
+                },
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder select-none">
+                            <div class="text-center space-y-4 py-8 max-w-xs">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg animate-pulse text-crimson">
+                                    <svg class="w-10 h-10 ml-1 fill-current" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Reels Video Placeholder 1</h3>
+                                    <p class="text-xs text-neutral-500">Please replace this container with your Reel 1 vertical video.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">REEL_01.MP4</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-[9/16] max-h-[60vh] md:max-h-full py-4 md:py-8",
+                    caption: `Open on a black screen. Sound of a heavy chain dragging on Taipei concrete. The neon light flickers, shattering "Hollow Prosperity". Do you hear it? 🔗 #Reels #殘執 #SoundOfJudgment`,
+                    likes: 19842,
+                    commentsCount: 193,
+                    isLiked: false,
+                    comments: [
+                        { user: "lin_mo", userGlyph: "默", text: "The echo of the chain is louder in the quiet streets. Taipei never digests what it hides. (台北黑夜)", time: "3d", likes: "24 likes" },
+                        { user: "influencer_slay", userGlyph: "I", text: "Omg the sound design gives me goosebumps! 😨 Is this a real thriller series?", time: "2d", likes: "8 likes" },
+                        { user: "script_nerd", userGlyph: "S", text: "The clapperboard transition was smooth. Love the industrial drone aesthetic.", time: "1d", likes: "2 likes" }
+                    ],
+                    location: "Ximending, Taipei",
+                    date: "May 7, 2026",
+                    timeAgo: "24d"
+                }
+            ],
+            tagged: [
+                {
+                    mediaHtml: `
+                        <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder relative select-none">
+                            <div class="absolute top-[40%] left-[30%] bg-black/90 text-white text-[10px] font-semibold px-2.5 py-1 rounded-md flex items-center gap-1 shadow-lg border border-neutral-800 animate-bounce">
+                                <svg class="w-3 h-3 text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                                    <path d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z"/>
+                                </svg>
+                                <span>@residue</span>
+                            </div>
+                            
+                            <div class="text-center space-y-4">
+                                <div class="w-20 h-20 rounded-full border border-neutral-700 flex items-center justify-center mx-auto bg-neutral-950/60 shadow-lg">
+                                    <svg class="w-10 h-10 text-neutral-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                    </svg>
+                                </div>
+                                <div class="space-y-1">
+                                    <h3 class="text-sm font-semibold tracking-widest uppercase text-neutral-300">Tagged Photo Placeholder</h3>
+                                    <p class="text-xs text-neutral-500 max-w-xs mx-auto">This represents photos uploaded by others that tagged your account. Click to view tagged bubbles.</p>
+                                    <span class="inline-block mt-2 px-2.5 py-1 text-[9px] font-mono tracking-wider border border-neutral-700 bg-neutral-900 text-neutral-400 rounded uppercase">TAGGED_01.JPG</span>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+                    aspectClass: "aspect-square",
+                    caption: `Look who we spotted at Exit 6. Lin Mo's chains are looking heavier tonight. Who's backing Residue Studio? 🤫 台北街頭直擊 #殘執 #LinMo #TaipeiNoir`,
+                    likes: 3125,
+                    commentsCount: 108,
+                    isLiked: false,
+                    comments: [
+                        { user: "lin_mo", userGlyph: "默", text: "Do not tag me in these photos. They are watching. (別把我標在照片裡)", time: "5d", likes: "42 likes" },
+                        { user: "detective_chen", userGlyph: "C", text: "We need to analyze the reflection in the neon sign behind him.", time: "4d", likes: "15 likes" },
+                        { user: "anonymous_residue", userGlyph: "A", text: "Is that a real chain or CG? Looks incredibly metal.", time: "4d", likes: "1 like" }
+                    ],
+                    location: "Taipei Exit 6 / 西門町六號出口",
+                    date: "May 26, 2026",
+                    timeAgo: "5d"
+                }
+            ]
+        };
+
+        let currentPostType = 'posts';
+        let currentPostIndex = 0;
+
+        const modal = document.getElementById('postModal');
+        const mediaContainer = document.getElementById('modalMediaContainer');
+        const locationEl = document.getElementById('modalLocation');
+        const commentsContainer = document.getElementById('modalCommentsContainer');
+        const likesCountEl = document.getElementById('likesCount');
+        const timestampEl = document.getElementById('modalTimestamp');
+        const heartIcon = document.getElementById('heartIcon');
+        const commentInput = document.getElementById('commentInput');
+
+        // Switch Tabs Functionality
+        function switchTab(tabName) {
+            // Hide all tab content
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+            // Reset all tab button borders & colors
+            const tabButtons = ['posts', 'reels', 'tagged'];
+            tabButtons.forEach(name => {
+                const btn = document.getElementById(`tab-${name}`);
+                if (btn) {
+                    btn.className = "flex items-center gap-1.5 py-4 border-t border-transparent text-igTextSecondary hover:text-igTextPrimary transition-colors duration-200";
+                }
+            });
+
+            // Show selected tab content
+            document.getElementById(`content-${tabName}`).classList.remove('hidden');
+            // Highlight selected tab button
+            const activeBtn = document.getElementById(`tab-${tabName}`);
+            if (activeBtn) {
+                activeBtn.className = "flex items-center gap-1.5 py-4 border-t border-igTextPrimary text-igTextPrimary -mt-px transition-colors duration-200";
+            }
+        }
+
+        // Open Modal and Populate dynamically based on post index
+        function openModal(postType, index) {
+            let targetType = postType;
+            let targetIndex = index;
+
+            // Map absolute index of 'posts' tab to the actual posts/reels item
+            if (postType === 'posts') {
+                const postsMapping = [
+                    { type: 'posts', idx: 0 }, // 0: Post 4 (May 29)
+                    { type: 'posts', idx: 1 }, // 1: Pillar 3 (May 27)
+                    { type: 'posts', idx: 2 }, // 2: Pillar 2 (May 19)
+                    { type: 'reels', idx: 0 }, // 3: Reel 3 (May 13)
+                    { type: 'reels', idx: 1 }, // 4: Reel 2 (May 10)
+                    { type: 'reels', idx: 2 }, // 5: Reel 1 (May 7)
+                    { type: 'posts', idx: 3 }  // 6: Pillar 1 (May 2)
+                ];
+                if (postsMapping[index]) {
+                    targetType = postsMapping[index].type;
+                    targetIndex = postsMapping[index].idx;
+                }
+            }
+
+            currentPostType = targetType;
+            currentPostIndex = targetIndex;
+            const data = postData[targetType][targetIndex];
+
+            if (!data) return;
+
+            // Render Media Section with correct aspect class
+            mediaContainer.innerHTML = data.mediaHtml;
+            mediaContainer.className = `flex-1 bg-black flex items-center justify-center relative select-none min-h-[300px] md:h-full ${data.aspectClass}`;
+
+            // Populate Location & Likes Count & Timestamp
+            locationEl.innerText = data.location;
+            likesCountEl.innerText = data.likes.toLocaleString();
+            timestampEl.innerText = data.date;
+
+            // Render Like Status
+            updateHeartIcon(data.isLiked);
+
+            const verifiedBadge = `<svg class="w-[12px] h-[12px] text-[#0095F6] fill-current inline-block align-middle ml-0.5" viewBox="0 0 24 24"><path d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" /></svg>`;
+
+            // Populate Comments Section (Caption + User Comments)
+            commentsContainer.innerHTML = `
+                <!-- Original Caption -->
+                <div class="flex gap-3 items-start pb-2 border-b border-igBorder/40">
+                    <div class="w-8 h-8 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 flex-shrink-0 font-bold">殘</div>
+                    <div>
+                        <p class="leading-relaxed">
+                            <span class="font-semibold mr-1.5 hover:underline cursor-pointer">residue</span>${verifiedBadge}
+                            ${data.caption}
+                        </p>
+                        <div class="flex items-center gap-3 mt-2 text-xs text-igTextSecondary">
+                            <span>${data.timeAgo || '1d'}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Display simulated comments count trigger if large numbers are defined
+            if (data.commentsCount && data.commentsCount > data.comments.length) {
+                commentsContainer.innerHTML += `
+                    <div class="py-1.5 border-b border-igBorder/20">
+                        <button class="text-xs text-igTextSecondary hover:text-igTextPrimary font-semibold transition-colors duration-200" onclick="alert('Viewing all simulated comments.');">
+                            View all ${data.commentsCount.toLocaleString()} comments
+                        </button>
+                    </div>
+                `;
+            }
+
+            // Append each comment
+            data.comments.forEach(comment => {
+                const commentUserBadge = comment.user === 'residue' ? verifiedBadge : '';
+                commentsContainer.innerHTML += `
+                    <div class="flex gap-3 items-start">
+                        <div class="w-8 h-8 rounded-full bg-neutral-900 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 flex-shrink-0 font-bold select-none">${comment.userGlyph}</div>
+                        <div>
+                            <p class="leading-relaxed">
+                                <span class="font-semibold mr-1.5 hover:underline cursor-pointer">${comment.user}</span>${commentUserBadge}
+                                ${comment.text}
+                            </p>
+                            <div class="flex items-center gap-3 mt-2 text-xs text-igTextSecondary">
+                                <span>${comment.time}</span>
+                                <span>${comment.likes}</span>
+                                <span class="font-semibold cursor-pointer">Reply</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            // Display Modal with transition
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+            }, 10);
+            document.body.style.overflow = 'hidden'; // Lock background scroll
+        }
+
+        function closeModal() {
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+            document.body.style.overflow = ''; // Unlock background scroll
+        }
+
+        // Escape Key Modal Exit
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+
+        // Like Interaction
+        function toggleLike() {
+            const data = postData[currentPostType][currentPostIndex];
+            if (!data) return;
+            data.isLiked = !data.isLiked;
+
+            if (data.isLiked) {
+                data.likes += 1;
+            } else {
+                data.likes -= 1;
+            }
+
+            likesCountEl.innerText = data.likes.toLocaleString();
+            updateHeartIcon(data.isLiked);
+        }
+
+        function updateHeartIcon(isLikedStatus) {
+            if (isLikedStatus) {
+                heartIcon.innerHTML = `<path fill="currentColor" class="text-red-500" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>`;
+            } else {
+                heartIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />`;
+            }
+        }
+
+        function focusCommentInput() {
+            commentInput.focus();
+        }
+
+        // Post Comment Interaction
+        function postComment(event) {
+            event.preventDefault();
+            const text = commentInput.value.trim();
+            if (!text) return;
+
+            const data = postData[currentPostType][currentPostIndex];
+            if (!data) return;
+
+            // Append comment directly into array for state persistence
+            const newCommentObj = {
+                user: "visitor",
+                userGlyph: "U",
+                text: text,
+                time: "Just now",
+                likes: "0 likes"
+            };
+            data.comments.push(newCommentObj);
+
+            // Re-render new comment in UI
+            const newCommentDiv = document.createElement('div');
+            newCommentDiv.className = 'flex gap-3 items-start animate-fade-in';
+            newCommentDiv.innerHTML = `
+                <div class="w-8 h-8 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-neutral-400 flex-shrink-0 font-bold">U</div>
+                <div>
+                    <p class="leading-relaxed">
+                        <span class="font-semibold mr-1.5 hover:underline cursor-pointer">visitor</span>
+                        ${escapeHtml(text)}
+                    </p>
+                    <div class="flex items-center gap-3 mt-2 text-xs text-igTextSecondary">
+                        <span>Just now</span>
+                        <span class="font-semibold cursor-pointer">Reply</span>
+                    </div>
+                </div>
+            `;
+
+            commentsContainer.appendChild(newCommentDiv);
+            commentInput.value = '';
+
+            // Scroll to newly posted comment
+            setTimeout(() => {
+                commentsContainer.scrollTop = commentsContainer.scrollHeight;
+            }, 50);
+        }
+
+        function escapeHtml(string) {
+            return String(string).replace(/[&<>"']/g, function (s) {
+                return {
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#39;'
+                }[s];
+            });
+        }
+
+        // Parse search query parameters on load to trigger deep linking
+        window.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const tab = urlParams.get('tab');
+            const postIndex = urlParams.get('post');
+
+            if (tab) {
+                // Switch tab to target
+                switchTab(tab);
+
+                // Open modal if index is provided
+                if (postIndex !== null) {
+                    const index = parseInt(postIndex, 10);
+                    if (!isNaN(index)) {
+                        // Tiny delay to ensure page rendering is complete
+                        setTimeout(() => {
+                            openModal(tab, index);
+                        }, 200);
+                    }
+                }
+            }
+
+            // STORIES Deep Link Parser
+            const storiesActive = urlParams.get('stories');
+            const storyIdx = urlParams.get('story');
+            if (storiesActive === 'true') {
+                const idx = storyIdx !== null ? parseInt(storyIdx, 10) : 0;
+                setTimeout(() => {
+                    openStoriesModal(isNaN(idx) ? 0 : idx);
+                }, 250);
+            }
+        });
+
+        // ================= STORIES CONTROL SYSTEM =================
+        const storiesData = [
+            {
+                id: 0,
+                type: 'story1',
+                timeAgo: '14h',
+                html: `
+                    <div class="w-full h-full flex flex-col items-center justify-between p-6 pb-12 bg-gradient-to-b from-neutral-900 via-midnight to-neutral-950 text-center select-none relative">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(139,0,0,0.15)_0%,transparent_70%)]"></div>
+                        
+                        <div class="mt-24 z-10">
+                            <p class="text-[10px] text-crimson font-display uppercase tracking-[0.3em] mb-2 font-bold">Horror Thriller Series / Game</p>
+                            <h3 class="font-serif text-5xl italic font-black text-white drop-shadow-[0_0_15px_rgba(139,0,0,0.4)]">殘執</h3>
+                            <p class="font-display text-xs uppercase tracking-[0.4em] text-white/50 mt-4">Residue</p>
+                        </div>
+
+                        <div class="z-10 w-full max-w-[280px] p-6 glass-card border-white/5 rounded-lg bg-black/40 backdrop-blur-sm">
+                            <p class="text-xs text-white/80 leading-relaxed font-sans">
+                                台北街頭霓虹閃爍下的執念正在覺醒。<br>你，準備好接受審判了嗎？
+                            </p>
+                        </div>
+
+                        <div class="z-30 w-full flex flex-col items-center gap-2">
+                            <div class="animate-bounce text-white/60">
+                                <svg class="w-5 h-5 mx-auto" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                </svg>
+                            </div>
+                            <a href="./index.html" target="_blank" onclick="pauseStoryTimer();"
+                               class="px-8 py-3 rounded-full bg-white text-black hover:bg-crimson hover:text-white font-display text-[10px] uppercase tracking-[0.2em] font-semibold shadow-lg hover:shadow-crimson/50 hover:scale-105 transition-all duration-300">
+                                Swipe Up to Play
+                            </a>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 1,
+                type: 'story2',
+                timeAgo: '8h',
+                html: `
+                    <div class="w-full h-full flex flex-col justify-between p-6 pb-12 bg-[url('https://images.unsplash.com/photo-1549413203-882236940847?auto=format&fit=crop&w=600&q=80')] bg-cover relative select-none">
+                        <div class="absolute inset-0 bg-black/70 backdrop-blur-[1px]"></div>
+                        
+                        <div class="text-center mt-24 z-10">
+                            <p class="text-[10px] text-crimson font-display uppercase tracking-[0.3em] mb-2 font-bold">Shadow Mapping</p>
+                            <p class="text-[9px] uppercase tracking-[0.2em] text-white/40">台北黑夜街頭現場</p>
+                        </div>
+
+                        <div class="z-30 glass-card p-6 text-center max-w-[280px] mx-auto bg-black/80 border-white/10 shadow-2xl relative">
+                            <p class="text-xs font-semibold mb-4 text-white leading-relaxed">Felt watched in an empty street?<br><span class="text-[10px] text-neutral-400 font-normal mt-1 block">曾在台北空無一人的街上，感覺被注視嗎？</span></p>
+                            
+                            <div class="flex flex-col space-y-2.5" id="pollContainer">
+                                <button onclick="votePoll(0); event.stopPropagation();" 
+                                        class="w-full py-2.5 bg-crimson hover:bg-red-800 text-[10px] uppercase font-bold tracking-widest rounded transition-all active:scale-[0.98] text-white">
+                                    Yes, Always
+                                </button>
+                                <button onclick="votePoll(1); event.stopPropagation();" 
+                                        class="w-full py-2.5 bg-neutral-900 hover:bg-neutral-800 border border-white/10 text-[10px] uppercase tracking-widest rounded transition-all active:scale-[0.98] text-white/80">
+                                    Not until now
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="z-10 text-center">
+                            <p class="text-[9px] tracking-wider text-white/30 uppercase font-display">Horror Game Preview</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 2,
+                type: 'story3',
+                timeAgo: '2h',
+                html: `
+                    <div class="w-full h-full flex flex-col justify-between p-6 pb-12 bg-gradient-to-b from-[#181818] via-midnight to-neutral-950 text-center select-none relative overflow-hidden">
+                        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.02)_0%,transparent_80%)]"></div>
+                        <div id="sliderWarningBg" class="absolute inset-0 bg-crimson/0 transition-colors duration-300 pointer-events-none z-0"></div>
+
+                        <div class="mt-24 z-10 relative">
+                            <p class="text-[10px] text-crimson font-display uppercase tracking-[0.3em] mb-2 font-bold">Interactive Game Feature</p>
+                            <h4 class="font-serif text-2xl italic text-white leading-relaxed">"It feels like a win..."</h4>
+                            <p class="text-[10px] text-neutral-400 mt-2">But is your consumption dragging you to the void?</p>
+                        </div>
+
+                        <div class="z-30 w-full max-w-[280px] mx-auto p-6 glass-card bg-black/60 border-white/10 rounded-xl space-y-6 relative">
+                            <div class="text-center space-y-1">
+                                <span class="text-[10px] uppercase tracking-wider text-crimson font-bold block" id="sliderStatus">Drag to Sell Your Soul</span>
+                                <span class="text-[10px] text-white/60" id="sliderValueText">Spent: 0%</span>
+                            </div>
+
+                            <div class="relative w-full h-8 bg-neutral-900 border border-white/10 rounded-full flex items-center px-1" id="sliderTrack">
+                                <div id="sliderFill" class="absolute left-0 top-0 bottom-0 bg-crimson/20 rounded-full w-0 pointer-events-none transition-all duration-75"></div>
+                                <div id="sliderHandle" 
+                                     class="w-8 h-8 rounded-full bg-crimson shadow-lg flex items-center justify-center text-lg cursor-grab active:cursor-grabbing transition-all absolute left-0 select-none z-10" 
+                                     style="transform: translateX(0px); left: 0px;">
+                                    💸
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="z-10 relative">
+                            <p class="text-[9px] tracking-wider text-white/30 uppercase font-display">Residue Horror Game Mechanics</p>
+                        </div>
+                    </div>
+                `
+            }
+        ];
+
+        let currentStoryIndex = 0;
+        let storyTimer = null;
+        let storyDuration = 5000; // 5 seconds per story
+        let storyStartTime = 0;
+        let storyElapsed = 0;
+        let isStoryPaused = false;
+        let isDragging = false;
+        let startX = 0;
+        let initialLeft = 0;
+
+        function openStoriesModal(startIndex = 0) {
+            const sModal = document.getElementById('storiesModal');
+            if (!sModal) return;
+
+            sModal.classList.remove('hidden');
+            setTimeout(() => {
+                sModal.classList.remove('opacity-0');
+                sModal.classList.add('opacity-100');
+            }, 10);
+
+            document.body.style.overflow = 'hidden';
+            playStory(startIndex);
+        }
+
+        function closeStoriesModal() {
+            const sModal = document.getElementById('storiesModal');
+            if (!sModal) return;
+
+            sModal.classList.remove('opacity-100');
+            sModal.classList.add('opacity-0');
+
+            cancelAnimationFrame(storyTimer);
+            isStoryPaused = false;
+            storyElapsed = 0;
+
+            setTimeout(() => {
+                sModal.classList.add('hidden');
+            }, 300);
+
+            document.body.style.overflow = '';
+        }
+
+        function playStory(index) {
+            currentStoryIndex = index;
+            storyElapsed = 0;
+
+            const container = document.getElementById('storyContentContainer');
+            if (container) {
+                container.innerHTML = storiesData[index].html;
+            }
+
+            const timeAgoEl = document.getElementById('storyTimeAgo');
+            if (timeAgoEl) {
+                timeAgoEl.innerText = storiesData[index].timeAgo;
+            }
+
+            const playPauseBtn = document.getElementById('playPauseBtn');
+            if (playPauseBtn) {
+                playPauseBtn.innerHTML = `
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                `;
+            }
+
+            // Update progress bars widths
+            for (let i = 0; i < storiesData.length; i++) {
+                const pb = document.getElementById(`story-progress-${i}`);
+                if (pb) {
+                    if (i < index) {
+                        pb.style.width = '100%';
+                    } else if (i === index) {
+                        pb.style.width = '0%';
+                    } else {
+                        pb.style.width = '0%';
+                    }
+                }
+            }
+
+            // Init Interactive elements
+            if (storiesData[index].type === 'story3') {
+                setTimeout(() => {
+                    initEmojiSlider();
+                }, 50);
+            }
+
+            startStoryTimer();
+        }
+
+        function startStoryTimer() {
+            cancelAnimationFrame(storyTimer);
+            storyStartTime = performance.now() - storyElapsed;
+            isStoryPaused = false;
+
+            function tick(timestamp) {
+                if (isStoryPaused) return;
+
+                storyElapsed = timestamp - storyStartTime;
+                const percent = Math.min((storyElapsed / storyDuration) * 100, 100);
+
+                const currentProgressBar = document.getElementById(`story-progress-${currentStoryIndex}`);
+                if (currentProgressBar) {
+                    currentProgressBar.style.width = `${percent}%`;
+                }
+
+                if (storyElapsed >= storyDuration) {
+                    storyElapsed = 0;
+                    nextStory();
+                } else {
+                    storyTimer = requestAnimationFrame(tick);
+                }
+            }
+
+            storyTimer = requestAnimationFrame(tick);
+        }
+
+        function pauseStoryTimer() {
+            isStoryPaused = true;
+            cancelAnimationFrame(storyTimer);
+            const playPauseBtn = document.getElementById('playPauseBtn');
+            if (playPauseBtn) {
+                playPauseBtn.innerHTML = `
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                `;
+            }
+        }
+
+        function resumeStoryTimer() {
+            if (!isStoryPaused) return;
+            storyStartTime = performance.now() - storyElapsed;
+            isStoryPaused = false;
+            const playPauseBtn = document.getElementById('playPauseBtn');
+            if (playPauseBtn) {
+                playPauseBtn.innerHTML = `
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                `;
+            }
+            startStoryTimer();
+        }
+
+        function togglePauseStory() {
+            if (isStoryPaused) {
+                resumeStoryTimer();
+            } else {
+                pauseStoryTimer();
+            }
+        }
+
+        function prevStory() {
+            if (currentStoryIndex > 0) {
+                playStory(currentStoryIndex - 1);
+            } else {
+                playStory(0); // replay first story
+            }
+        }
+
+        function nextStory() {
+            if (currentStoryIndex < storiesData.length - 1) {
+                playStory(currentStoryIndex + 1);
+            } else {
+                closeStoriesModal();
+            }
+        }
+
+        function handleStoryTap(e, direction) {
+            if (e.target.closest('#pollContainer') || e.target.closest('#sliderTrack') || e.target.closest('a') || e.target.closest('#playPauseBtn') || e.target.closest('button') || e.target.closest('input')) {
+                return;
+            }
+            if (direction === 'prev') {
+                prevStory();
+            } else {
+                nextStory();
+            }
+        }
+
+        // Story 2 Poll Logic
+        function votePoll(option) {
+            const pollContainer = document.getElementById('pollContainer');
+            if (!pollContainer) return;
+
+            const yesPercent = option === 0 ? 88 : 83;
+            const noPercent = 100 - yesPercent;
+
+            pollContainer.innerHTML = `
+                <div class="space-y-3">
+                    <div class="relative w-full h-11 bg-neutral-900 border border-white/10 rounded overflow-hidden flex items-center px-4 justify-between">
+                        <div class="absolute left-0 top-0 bottom-0 bg-crimson/30 transition-all duration-500" style="width: ${yesPercent}%"></div>
+                        <span class="relative z-10 text-xs text-white font-bold">Yes, Always</span>
+                        <span class="relative z-10 text-xs text-white font-bold">${yesPercent}%</span>
+                    </div>
+                    <div class="relative w-full h-11 bg-neutral-900 border border-white/10 rounded overflow-hidden flex items-center px-4 justify-between">
+                        <div class="absolute left-0 top-0 bottom-0 bg-neutral-800 transition-all duration-500" style="width: ${noPercent}%"></div>
+                        <span class="relative z-10 text-xs text-white/80">Not until now</span>
+                        <span class="relative z-10 text-xs text-white/80">${noPercent}%</span>
+                    </div>
+                    <p class="text-[9px] text-crimson font-semibold tracking-wider uppercase mt-2">You are now bound by the street's gaze.</p>
+                </div>
+            `;
+        }
+
+        // Story 3 Emoji Slider Logic
+        function initEmojiSlider() {
+            const handle = document.getElementById('sliderHandle');
+            const track = document.getElementById('sliderTrack');
+            const fill = document.getElementById('sliderFill');
+            const status = document.getElementById('sliderStatus');
+            const valText = document.getElementById('sliderValueText');
+            const warningBg = document.getElementById('sliderWarningBg');
+            const container = handle?.closest('.glass-card');
+
+            if (!handle || !track) return;
+
+            const maxDrag = track.clientWidth - handle.clientWidth;
+
+            const onMove = (e) => {
+                if (!isDragging) return;
+                const currentX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+                const deltaX = currentX - startX;
+                let newLeft = initialLeft + deltaX;
+
+                if (newLeft < 0) newLeft = 0;
+                if (newLeft > maxDrag) newLeft = maxDrag;
+
+                handle.style.left = `${newLeft}px`;
+
+                const pct = Math.round((newLeft / maxDrag) * 100);
+                fill.style.width = `${pct}%`;
+                valText.innerText = `Spent: ${pct}%`;
+
+                if (warningBg) {
+                    warningBg.style.backgroundColor = `rgba(139, 0, 0, ${pct / 200})`;
+                }
+
+                if (pct >= 95) {
+                    handle.innerText = '💀';
+                    handle.style.backgroundColor = '#000';
+                    handle.style.borderColor = '#8b0000';
+                    status.innerText = 'YOU PAID WITH YOUR SOUL';
+                    status.className = 'text-[10px] uppercase tracking-wider text-crimson font-black animate-pulse';
+                    valText.innerText = 'CURSED: 100%';
+                    valText.className = 'text-xs text-crimson font-bold';
+                    if (container && !container.classList.contains('animate-shake')) {
+                        container.classList.add('animate-shake');
+                        container.style.boxShadow = '0 0 30px rgba(139, 0, 0, 0.8)';
+                        container.style.borderColor = '#8b0000';
+                    }
+                } else {
+                    handle.innerText = '💸';
+                    handle.style.backgroundColor = '';
+                    handle.style.borderColor = '';
+                    status.innerText = 'Drag to Sell Your Soul';
+                    status.className = 'text-[10px] uppercase tracking-wider text-crimson font-bold block';
+                    valText.className = 'text-xs text-white/60';
+                    if (container) {
+                        container.classList.remove('animate-shake');
+                        container.style.boxShadow = '';
+                        container.style.borderColor = '';
+                    }
+                }
+            };
+
+            const onEnd = () => {
+                if (!isDragging) return;
+                isDragging = false;
+
+                window.removeEventListener('mousemove', onMove);
+                window.removeEventListener('mouseup', onEnd);
+                window.removeEventListener('touchmove', onMove);
+                window.removeEventListener('touchend', onEnd);
+
+                const currentLeft = parseInt(handle.style.left || '0', 10);
+                const pct = (currentLeft / maxDrag) * 100;
+
+                if (pct < 95) {
+                    handle.style.transition = 'left 0.3s ease';
+                    fill.style.transition = 'width 0.3s ease';
+                    handle.style.left = '0px';
+                    fill.style.width = '0%';
+                    valText.innerText = 'Spent: 0%';
+                    if (warningBg) {
+                        warningBg.style.backgroundColor = 'rgba(139, 0, 0, 0)';
+                    }
+                    resumeStoryTimer();
+                } else {
+                    handle.style.left = `${maxDrag}px`;
+                    fill.style.width = '100%';
+                    setTimeout(() => {
+                        nextStory();
+                    }, 2000);
+                }
+            };
+
+            const onStart = (e) => {
+                isDragging = true;
+                startX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+                initialLeft = parseInt(handle.style.left || '0', 10);
+                handle.style.transition = 'none';
+                fill.style.transition = 'none';
+
+                pauseStoryTimer();
+
+                window.addEventListener('mousemove', onMove);
+                window.addEventListener('mouseup', onEnd);
+                window.addEventListener('touchmove', onMove, { passive: false });
+                window.addEventListener('touchend', onEnd);
+
+                e.preventDefault();
+            };
+
+            handle.addEventListener('mousedown', onStart);
+            handle.addEventListener('touchstart', onStart, { passive: false });
+        }
+
+        // Global Keydown listener for stories keyboard control
+        window.addEventListener('keydown', (e) => {
+            const sModal = document.getElementById('storiesModal');
+            if (sModal && !sModal.classList.contains('hidden')) {
+                if (e.key === 'ArrowRight') {
+                    nextStory();
+                } else if (e.key === 'ArrowLeft') {
+                    prevStory();
+                } else if (e.key === ' ' || e.code === 'Space') {
+                    e.preventDefault();
+                    togglePauseStory();
+                } else if (e.key === 'Escape') {
+                    closeStoriesModal();
+                }
+            }
+        });
+    </script>
+
+    <!-- STORIES MODAL -->
+    <div id="storiesModal"
+        class="fixed inset-0 z-50 hidden bg-[#0a0a0a]/95 backdrop-blur-md flex items-center justify-center opacity-0 transition-opacity duration-300">
+        <div class="absolute inset-0 cursor-default" onclick="closeStoriesModal()"></div>
+
+        <div
+            class="relative w-full max-w-[420px] h-[100dvh] sm:h-[85vh] sm:max-h-[750px] aspect-[9/16] bg-black sm:rounded-xl overflow-hidden flex flex-col justify-between shadow-2xl z-10 border border-neutral-800">
+            <div class="absolute top-2.5 left-2.5 right-2.5 flex space-x-1.5 z-30 pointer-events-none">
+                <div class="h-0.5 bg-white/20 rounded-full flex-1 overflow-hidden">
+                    <div id="story-progress-0" class="h-full bg-white w-0 transition-all duration-75"></div>
+                </div>
+                <div class="h-0.5 bg-white/20 rounded-full flex-1 overflow-hidden">
+                    <div id="story-progress-1" class="h-full bg-white w-0 transition-all duration-75"></div>
+                </div>
+                <div class="h-0.5 bg-white/20 rounded-full flex-1 overflow-hidden">
+                    <div id="story-progress-2" class="h-full bg-white w-0 transition-all duration-75"></div>
+                </div>
+            </div>
+
+            <div class="absolute top-5 left-3.5 right-3.5 flex items-center justify-between z-30">
+                <div class="flex items-center gap-2 pointer-events-none">
+                    <div
+                        class="w-8 h-8 rounded-full border border-neutral-700 bg-neutral-900 flex items-center justify-center text-[10px] text-neutral-300 font-bold select-none">
+                        殘</div>
+                    <div class="flex flex-col">
+                        <span class="text-xs font-semibold text-white tracking-wide flex items-center gap-1">residue
+                            <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+                            </svg>
+                        </span>
+                        <span class="text-[9px] text-white/50" id="storyTimeAgo">10h</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <button id="playPauseBtn" onclick="togglePauseStory()"
+                        class="text-white/80 hover:text-white transition-colors p-1" title="Pause">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                        </svg>
+                    </button>
+                    <button onclick="closeStoriesModal()" class="text-white/80 hover:text-white transition-colors p-1"
+                        title="Close">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div id="storyContentContainer" class="w-full h-full relative z-10"></div>
+
+            <div class="absolute inset-0 z-20 flex">
+                <div onclick="handleStoryTap(event, 'prev')" class="w-1/3 h-full cursor-w-resize"></div>
+                <div onclick="handleStoryTap(event, 'next')" class="w-2/3 h-full cursor-e-resize"></div>
+            </div>
+
+            <div
+                class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent z-30 flex items-center gap-3">
+                <div class="flex-1 relative">
+                    <input type="text" placeholder="Send message..." onfocus="pauseStoryTimer()"
+                        onblur="resumeStoryTimer()"
+                        class="w-full bg-transparent border border-white/20 rounded-full py-2 px-4 text-xs text-white placeholder-white/50 focus:outline-none focus:border-white/50 transition-colors">
+                </div>
+                <button class="text-white/80 hover:text-white transition-colors"
+                    onclick="alert('Message feature simulated in horror archive.');">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
