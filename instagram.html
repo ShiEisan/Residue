@@ -168,8 +168,9 @@
             <a href="#"
                 class="flex items-center gap-4 p-3 rounded-xl hover:bg-igHoverBg bg-igHoverBg xl:bg-transparent font-bold transition-all group">
                 <div
-                    class="w-6 h-6 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-igTextSecondary group-hover:scale-105 transition-transform font-mono font-bold">
-                    R</div>
+                    class="w-6 h-6 rounded-full bg-black border border-igBorder flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform">
+                    <img src="pic/optimized/Bureau.jpg" class="w-full h-full object-contain p-0.5" alt="residue avatar">
+                </div>
                 <span class="hidden xl:inline text-sm">Profile</span>
             </a>
         </nav>
@@ -221,11 +222,10 @@
                         title="View Stories">
                         <div
                             class="w-full h-full rounded-full bg-black flex items-center justify-center border-2 border-black overflow-hidden relative">
-                            <div class="w-full h-full bg-neutral-900 flex flex-col items-center justify-center">
-                                <span
-                                    class="font-serif text-3xl sm:text-5xl font-black italic tracking-widest text-neutral-300">殘</span>
-                                <span
-                                    class="absolute bottom-2 text-[8px] sm:text-[10px] tracking-widest text-crimson font-bold uppercase">Residue</span>
+                            <div
+                                class="w-full h-full rounded-full bg-black flex items-center justify-center overflow-hidden">
+                                <img src="pic/optimized/Bureau.jpg"
+                                    class="w-full h-full object-contain p-2 rounded-full" alt="residue avatar">
                             </div>
                         </div>
                     </div>
@@ -891,9 +891,10 @@
                 <path d="M21 8H3m0 8h18M8 3v18m8-18v18" />
             </svg>
         </div>
-        <!-- Profile Icon -->
         <a href="#"
-            class="w-6 h-6 rounded-full bg-neutral-800 border border-igTextPrimary flex items-center justify-center text-[9px] font-bold text-igTextPrimary">R</a>
+            class="w-6 h-6 rounded-full bg-black border border-igTextPrimary flex items-center justify-center overflow-hidden">
+            <img src="pic/optimized/Bureau.jpg" class="w-full h-full object-contain p-0.5" alt="residue avatar">
+        </a>
     </nav>
 
     <!-- LIGHTBOX DETAILED POST MODAL (Hidden by default) -->
@@ -928,16 +929,20 @@
                 <header class="flex items-center justify-between p-4 border-b border-igBorder flex-shrink-0">
                     <div class="flex items-center gap-3">
                         <!-- Tiny Avatar -->
-                        <div
-                            class="w-8 h-8 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 font-bold">
-                            殘</div>
+                        <div id="modalHeaderAvatar"
+                            class="w-8 h-8 rounded-full bg-black border border-igBorder flex items-center justify-center overflow-hidden">
+                            <img src="pic/optimized/Bureau.jpg" class="w-full h-full object-contain p-0.5"
+                                alt="residue avatar">
+                        </div>
                         <div>
                             <div class="flex items-center gap-1">
-                                <span class="font-semibold text-sm hover:underline cursor-pointer">residue</span>
-                                <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
-                                    <path
-                                        d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
-                                </svg>
+                                <span id="modalHeaderUsername" class="font-semibold text-sm hover:underline cursor-pointer">residue</span>
+                                <span id="modalHeaderVerified">
+                                    <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+                                    </svg>
+                                </span>
                             </div>
                             <span id="modalLocation" class="text-[10px] text-igTextSecondary">Taipei, Taiwan</span>
                         </div>
@@ -1050,7 +1055,7 @@
                     commentsCount: 951,
                     isLiked: false,
                     comments: [
-                        { user: "residue", userGlyph: "殘", text: "New visual concept coming soon.", time: "1h", likes: "0 likes" }
+                        { user: "residue", userGlyph: "殘", text: "New visual concept coming soon.", time: "1h", likes: "60 likes" }
                     ],
                     location: "Taipei, Taiwan",
                     date: "May 29, 2026",
@@ -1175,7 +1180,7 @@
                     commentsCount: 1267,
                     isLiked: false,
                     comments: [
-                        { user: "residue", userGlyph: "殘", text: "Teaser video clip incoming.", time: "2h", likes: "90 likes" }
+                        { user: "residue", userGlyph: "殘", text: "Teaser video clip incoming!!!", time: "2h", likes: "90 likes" }
                     ],
                     location: "Taipei, Taiwan",
                     date: "May 13, 2026",
@@ -1245,6 +1250,11 @@
             ],
             tagged: [
                 {
+                    owner: {
+                        username: "ghost_hunter",
+                        avatar: `<div class="w-full h-full bg-neutral-800 text-[10px] text-neutral-300 font-bold flex items-center justify-center select-none">G</div>`,
+                        verified: false
+                    },
                     mediaHtml: `
                         <div class="w-full h-full flex flex-col items-center justify-center p-6 bg-gradient-to-tr from-[#161616] to-[#0c0c0c] border-b md:border-b-0 md:border-r border-igBorder relative select-none">
                             <div class="absolute top-[40%] left-[30%] bg-black/90 text-white text-[10px] font-semibold px-2.5 py-1 rounded-md flex items-center gap-1 shadow-lg border border-neutral-800 animate-bounce">
@@ -1271,9 +1281,10 @@
                     aspectClass: "aspect-square",
                     caption: `Look who we spotted at Exit 6. Lin Mo's chains are looking heavier tonight. Who's backing Residue Studio? 🤫 台北街頭直擊 #殘執 #LinMo #TaipeiNoir`,
                     likes: 3125,
-                    commentsCount: 108,
+                    commentsCount: 109,
                     isLiked: false,
                     comments: [
+                        { user: "residue", userGlyph: "殘", text: "😎👻☠️", time: "1d", likes: "125 likes" },
                         { user: "lin_mo", userGlyph: "默", text: "Do not tag me in these photos. They are watching. (別把我標在照片裡)", time: "5d", likes: "42 likes" },
                         { user: "detective_chen", userGlyph: "C", text: "We need to analyze the reflection in the neon sign behind him.", time: "4d", likes: "15 likes" },
                         { user: "anonymous_residue", userGlyph: "A", text: "Is that a real chain or CG? Looks incredibly metal.", time: "4d", likes: "1 like" }
@@ -1371,14 +1382,38 @@
 
             const verifiedBadge = `<svg class="w-[12px] h-[12px] text-[#0095F6] fill-current inline-block align-middle ml-0.5" viewBox="0 0 24 24"><path d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" /></svg>`;
 
+            const owner = data.owner || {
+                username: "residue",
+                avatar: `<img src="pic/optimized/Bureau.jpg" class="w-full h-full object-contain p-0.5" alt="residue avatar">`,
+                verified: true
+            };
+
+            const modalHeaderAvatar = document.getElementById('modalHeaderAvatar');
+            const modalHeaderUsername = document.getElementById('modalHeaderUsername');
+            const modalHeaderVerified = document.getElementById('modalHeaderVerified');
+
+            if (modalHeaderAvatar) modalHeaderAvatar.innerHTML = owner.avatar;
+            if (modalHeaderUsername) modalHeaderUsername.innerText = owner.username;
+            if (modalHeaderVerified) {
+                modalHeaderVerified.innerHTML = owner.verified ? `
+                    <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
+                        <path d="M12.002 2.005a9.995 9.995 0 1010 9.995 9.995 9.995 0 00-10-9.995zm4.592 8.636l-5.32 5.32a.75.75 0 01-1.06 0l-2.66-2.66a.75.75 0 111.06-1.06l2.13 2.13 4.79-4.79a.75.75 0 111.06 1.06z" />
+                    </svg>
+                ` : '';
+            }
+
+            const ownerVerifiedHtml = owner.verified ? verifiedBadge : '';
+
             // Populate Comments Section (Caption + User Comments)
             commentsContainer.innerHTML = `
                 <!-- Original Caption -->
                 <div class="flex gap-3 items-start pb-2 border-b border-igBorder/40">
-                    <div class="w-8 h-8 rounded-full bg-neutral-800 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 flex-shrink-0 font-bold">殘</div>
+                    <div class="w-8 h-8 rounded-full bg-black border border-igBorder flex items-center justify-center overflow-hidden flex-shrink-0">
+                        ${owner.avatar}
+                    </div>
                     <div>
                         <p class="leading-relaxed">
-                            <span class="font-semibold mr-1.5 hover:underline cursor-pointer">residue</span>${verifiedBadge}
+                            <span class="font-semibold mr-1.5 hover:underline cursor-pointer">${owner.username}</span>${ownerVerifiedHtml}
                             ${data.caption}
                         </p>
                         <div class="flex items-center gap-3 mt-2 text-xs text-igTextSecondary">
@@ -1402,9 +1437,19 @@
             // Append each comment
             data.comments.forEach(comment => {
                 const commentUserBadge = comment.user === 'residue' ? verifiedBadge : '';
+
+                let avatarHtml = `<div class="w-8 h-8 rounded-full bg-neutral-900 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 flex-shrink-0 font-bold select-none">${comment.userGlyph}</div>`;
+                if (comment.user === 'residue') {
+                    avatarHtml = `
+                        <div class="w-8 h-8 rounded-full bg-black border border-igBorder flex items-center justify-center overflow-hidden flex-shrink-0">
+                            <img src="pic/optimized/Bureau.jpg" class="w-full h-full object-contain p-0.5" alt="residue avatar">
+                        </div>
+                    `;
+                }
+
                 commentsContainer.innerHTML += `
                     <div class="flex gap-3 items-start">
-                        <div class="w-8 h-8 rounded-full bg-neutral-900 border border-igBorder flex items-center justify-center text-[10px] text-neutral-300 flex-shrink-0 font-bold select-none">${comment.userGlyph}</div>
+                        ${avatarHtml}
                         <div>
                             <p class="leading-relaxed">
                                 <span class="font-semibold mr-1.5 hover:underline cursor-pointer">${comment.user}</span>${commentUserBadge}
@@ -2107,8 +2152,10 @@
             <div class="absolute top-5 left-3.5 right-3.5 flex items-center justify-between z-30">
                 <div class="flex items-center gap-2 pointer-events-none">
                     <div
-                        class="w-8 h-8 rounded-full border border-neutral-700 bg-neutral-900 flex items-center justify-center text-[10px] text-neutral-300 font-bold select-none">
-                        殘</div>
+                        class="w-8 h-8 rounded-full border border-neutral-700 bg-black flex items-center justify-center overflow-hidden select-none">
+                        <img src="pic/optimized/Bureau.jpg" class="w-full h-full object-contain p-0.5"
+                            alt="residue avatar">
+                    </div>
                     <div class="flex flex-col">
                         <span class="text-xs font-semibold text-white tracking-wide flex items-center gap-1">residue
                             <svg class="w-[12px] h-[12px] text-[#0095F6] fill-current" viewBox="0 0 24 24">
